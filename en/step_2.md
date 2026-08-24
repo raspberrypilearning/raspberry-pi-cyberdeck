@@ -1,8 +1,1 @@
-## Step title
-
---- task ---
-
-
---- /task ---
-
-
+## Write the operating system
