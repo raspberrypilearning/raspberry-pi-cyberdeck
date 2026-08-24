@@ -3,6 +3,7 @@ hero_image: images/banner.png
 description: A short description of the project
 listed: false
 pdf: false
+build: true
 steps:
   - title: What you will make
   - title: Step title
