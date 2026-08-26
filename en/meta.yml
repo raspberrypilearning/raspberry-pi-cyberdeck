@@ -6,14 +6,16 @@ pdf: false
 build: true
 steps:
   - title: What you will make
-  - title: Write the operating system
+  - title: Choose a Raspberry Pi
+  - title: Plugging in
+  - title: Install Raspberry Pi OS
     completion:
       - engaged
+  - title: Choose a keyboard
+  - title: Choose a display
   - title: Set up your Raspberry Pi
   - title: Use Raspberry Pi Connect
   - title: Connect with SSH
-  - title: Choose a keyboard
-  - title: Choose a display
   - title: Add a button
   - title: Add lights
   - title: Build an enclosure

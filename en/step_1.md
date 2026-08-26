@@ -1,14 +1,8 @@
 ## What you will make
 
-A brief description - one or two sentences.
-
-> [!PRINTONLY]
->
-> ![ALT TEXT](images/IMAGE.png)
+ADD INTRO
 
 > [!NOPRINT]
->
-> Youtube embed
 >
 > <html>
 > <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
@@ -17,7 +11,26 @@ A brief description - one or two sentences.
 > </div><br>
 > </html>
 
+> [!PRINTONLY]
+>
+> ![The finished budgetdeck, open, showing its screen, keyboard and buttons.](images/budgetdeck-finished.png){:width="450px"}
+
+A shop-bought computer is made for everybody. A cyberdeck is made for one person.
+
+![The budgetdeck closed, showing the outside of the case.](images/budgetdeck-closed.png){:width="450px"}
+
+Yours might read knitting patterns, play music, write with no internet, or do something nobody has built yet.
+
+![Three very different cyberdecks side by side.](images/cyberdeck-examples.png){:width="450px"}
+
+> [!TIP]
+>
+> A Raspberry Pi with a screen and a keyboard is already a cyberdeck. Every step after that makes it more your own.
+
 ### You will need:
-- a
-- b
-- c
+- a Raspberry Pi
+- a microSD card
+- a power supply
+- a keyboard and a display
+- a button, an LED, a 330 ohm resistor and jumper wires
+- materials for a case
