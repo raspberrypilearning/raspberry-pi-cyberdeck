@@ -5,31 +5,32 @@ them into a sealed hard case about the size of a large briefcase. It is portable
 not quite in the laptop sense: everything travels as one piece, then runs from mains power
 when it arrives.
 
-Sideband is also a modern, deliberately ironic take on the cyberspace decks imagined by
+Sideband is also a modern, deliberately jokey take on the cyberspace decks imagined by
 William Gibson. His 1984 novel *Neuromancer* follows Case, a hacker who uses a specialised
 cyberspace deck to enter the matrix: a shared, computer-generated world built from
-networks and data. The book helped define cyberpunk.
+networks and data. The book helped define the cyberpunk genre.
 
-In Gibson's story, the deck is an escape hatch from the physical world into the network.
-Sideband reverses the idea: it brings the network into the room and leaves the machinery
-on show. Think of it less as one computer and more as the centre of a small private
-network. The Raspberry Pi, tablets and connected test devices are separate nodes, linked
-by services running on Sideband.
+Sideband turns that Gibsonesque idea into something much more physical — a rugged, ready-to-go cyberpunk rig, part field terminal and part spacecraft
+console. Its screens, switches and network activity are deliberately on show, because it's built for learning cybersecurity techniques.
+
+It is not the smallest, lightest or most practical way to package a Raspberry Pi. That is
+the point. It is not a prop, either. Everything works and has a specific function: the Raspberry Pi, tablets and connected test devices
+form a working private LAN, tied together by services running on Sideband.
 
 Most of that network works offline. When an authorised hacking task needs access to the
 wider internet, Sideband can use a controlled route designed to keep its private nodes off
-the public network.
+the public network, and away from attackers who might use it to gain access to its systems.
 
-![TODO::Sideband open on a table, with the screen lit and the control panel glowing.](images/cyberdeck-open.jpg){:width="450px"}
+![TODO::Sideband set up in its open hard case, with the main display, silver acrylic deck, controls and two tablet displays visible.](images/sideband-open.jpg){:width="450px"}
 
-At the centre is a Raspberry Pi 5 with 8GB of memory, running Raspberry Pi OS. It sits
+At the centre is a Raspberry Pi 5 with 8GB of memory and a cooling system, running Raspberry Pi OS. It sits
 below the deck surface; the screen, controls and network services are built around that
 reliable core.
 
 ### The case and display
 
 The case is more than packaging; it is the frame. A moulded lip around the inside supports
-a 5mm acrylic panel, painted silver on the back and cut to 440mm by 296mm, without needing
+a 5mm cast acrylic panel, painted silver on the back and cut to 440mm by 296mm, without needing
 a separate frame. Openings for the controls, sockets and storage slots were all laser-cut
 into that one panel.
 
@@ -38,8 +39,7 @@ Raspberry Pi desktop kit scavenged from a dusty store cupboard, and is mounted o
 acrylic panel in the lid. Its power-management board sits behind it.
 
 The display has its own power supply and button, separate from the Raspberry Pi power
-system. That separation is deliberate: the screen can be switched off without stopping
-the computer or its background services.
+system. That separation is a happy by-product of the recycled monitor: the screen can be switched off without stopping the computer or its background services.
 
 ### Making room for input
 
@@ -51,11 +51,13 @@ projector slips into its own storage slot.
 
 Think about what a conventional mouse needs: a clear surface, room to move and somewhere
 to be stowed. A trackball needs none of that. It also looks at home on a spaceship or an
-arcade machine, which feels about right here.
+arcade machine, which feels about right for this machine.
 
 The two illuminated arcade buttons above the ball provide its left and right mouse clicks.
 The trackball supplies power to their lights, controlled by the lamp switch, and the whole
 assembly reaches the Raspberry Pi as one USB device through a PS/2-to-USB adapter.
+
+![TODO::The red laser keyboard projected onto Sideband's silver acrylic deck beside the trackball and two illuminated arcade mouse buttons.](images/sideband-input.jpg){:width="450px"}
 
 ### Controls and switches
 
@@ -82,6 +84,8 @@ the risk of corrupting data on the microSD card.
 + **Lamp switch** — turns on the lights beneath the arcade buttons
 + **Two arcade buttons** — work as the trackball's left and right mouse buttons
 
+![TODO::Close view of Sideband's labelled key-lock, shutdown button, lighting mode button, brightness dial, blackout switch and lamp switch.](images/sideband-controls.jpg){:width="450px"}
+
 ### Side displays
 
 The two 7-inch Android tablets have already had one working life. They started out at
@@ -98,6 +102,8 @@ and storage use, while the other reports current network connections, Wi-Fi sign
 strength and connection details. In game mode, that division disappears: both become part
 of the game display, showing tasks, notes and local network information such as connected
 devices.
+
+![TODO::Sideband's two tablet displays, one showing Raspberry Pi system statistics and the other showing local network information.](images/sideband-tablets.jpg){:width="450px"}
 
 Think of the tablets as instruments, not remote controls. Their authority is deliberately
 narrow: neither can type into or control the Raspberry Pi desktop, although either can
@@ -126,6 +132,8 @@ Despite its internal complexity, Sideband has a single mains lead. Inside the ca
 switched extension fans the power out to four adapters: one for the Raspberry Pi, one for
 the main display, one for the LED panels, and one USB charger for the tablets and smaller
 boards.
+
+![TODO::Sideband's silver acrylic deck lifted to reveal the Raspberry Pi and cooling system, two LED grids, power adapters and internal cabling.](images/sideband-internals.jpg){:width="450px"}
 
 Portable here means self-contained, not cordless. Sideband travels as one case and, once
 set up, asks only for a single mains socket.

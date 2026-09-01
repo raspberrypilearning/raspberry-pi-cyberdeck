@@ -21,7 +21,7 @@ steps:
   - title: Build an enclosure
     completion:
       - internal
-  - title: Sideband
+  - title: Example - Sideband
   - title: Challenge
     challenge: true
     completion:
