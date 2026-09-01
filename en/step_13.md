@@ -1,130 +1,146 @@
 ## Sideband
 
-Sideband starts with familiar parts — a Raspberry Pi, a screen and a keyboard — and folds
-them into a sealed hard case about the size of a large briefcase.
+Sideband begins with familiar parts — a Raspberry Pi, a screen and a keyboard — and packs
+them into a tough, sealable case about the size of a large briefcase.
 
-It is also a modern, tongue-in-cheek take on the cyberspace decks imagined by
-William Gibson. His 1984 novel *Neuromancer* follows Case, a hacker who uses a specialised
-*cyberspace deck* to enter the matrix: a shared, computer-generated world built from
-networks and data. The book helped define the cyberpunk genre.
+It is a playful, modern take on the cyberspace decks imagined by science-fiction
+writer William Gibson. In his 1984 novel *Neuromancer*, a hacker named Case uses a special
+computer called a *cyberspace deck* to enter the matrix. In the story, the matrix is a
+shared virtual world made from computer networks and data. The book helped shape
+cyberpunk: a kind of science fiction set in high-tech worlds where life is often difficult.
 
-Here, that Gibsonesque idea becomes physical: a rugged, ready-to-go cyberpunk rig, part
-field terminal and part spacecraft console. Its screens, switches and network activity
-stay on show, so the systems used to teach cybersecurity can be seen at work.
+Sideband gives Gibson's idea a chunky, physical twist: a rugged, ready-to-go cyberpunk rig
+that is part field computer and part spacecraft console. Instead of hiding the technology,
+it celebrates it. Screens, switches and lighting make its network activity visible.
 
-It is not the smallest, lightest or most practical way to package a computer. That is the
-point. It is not a prop, either: the Pi, tablets and other connected devices form a working
-private LAN.
+It is not the smallest, lightest or most practical way to package a computer. That is
+deliberate. Sideband looks as though it has dropped out of a science-fiction future, but
+every part has a real job.
 
-The system is designed to work mostly offline. When an authorised hacking task needs
-internet access, the main computer can use a controlled route while the private network
-of tablets and test devices remains off the public internet.
+The whole system works less like one giant computer and more like a team. The Raspberry
+Pi, tablets and approved test devices are all *nodes* — individual devices on a private
+local network. Each node has its own job.
 
-![TODO::Sideband set up in its open hard case, with the main display, silver acrylic deck, controls and two tablet displays visible.](images/sideband-open.jpg){:width="450px"}
+Most of this network stays offline. If an authorised security task needs the internet,
+only the main computer is given access. The tablets and test devices remain isolated from
+the public internet. Here, hacking means testing only computers that the person using
+Sideband owns or has permission to test.
+
+![TODO::Sideband open inside its hard case, with the main display, silver deck, controls and two tablet displays visible.](images/sideband-open.jpg){:width="450px"}
 
 Beneath the deck, a Raspberry Pi 5 with 8GB of memory and a cooling system runs Raspberry
-Pi OS and hosts Sideband's local services.
+Pi OS. It also runs Sideband's local websites and network tools.
 
 ### The case and display
 
-The hard case doubles as the chassis. A moulded lip around the inside supports the 5mm cast
-acrylic deck directly, so it needs no separate frame. The panel is painted silver on the
-back and cut to 440mm by 296mm, with openings for the controls, sockets and storage slots
-laser-cut into the same piece.
+The hard case does more than protect the parts. It also supports them. A moulded ledge
+around the inside holds the deck, so no extra frame is needed.
 
-The main display was salvaged from a pi-topCEED, an older Raspberry Pi desktop kit found in
-a dusty store cupboard. It is mounted on an acrylic panel in the lid, with its
-power-management board behind it.
+The deck is made from a 5mm sheet of cast acrylic, a rigid, clear plastic. It measures
+440mm by 296mm and is painted silver on the back. A laser cutter made the openings for the
+controls, sockets and storage slots.
 
-Retaining the original display electronics leaves its power supply and button separate
-from the Raspberry Pi. As a useful side effect, the screen can be switched off while the
-computer and its background services carry on running.
+The main display was rescued from a pi-topCEED, an older Raspberry Pi desktop kit found in
+a dusty store cupboard. It sits on an acrylic panel in the lid, with the screen's power
+board mounted behind it.
+
+The screen keeps its original power supply and button, separate from the Raspberry Pi.
+This means the screen can be switched off while the Pi and its background tools continue
+to run.
 
 ### Making room for input
 
-The keyboard projector began as Kickstarter-backed hardware, then sat unused for years.
-It now casts a keyboard across the acrylic in red laser light. An infrared sensor detects
-each key press, and the projector sends the keystroke to the Raspberry Pi over Bluetooth.
-When the case is packed, it slips into its own storage slot.
+The keyboard projector was first funded through the crowdfunding website Kickstarter,
+then sat unused for years. It now projects a keyboard across the acrylic in red laser
+light. An infrared sensor uses light that human eyes cannot see to detect each key press.
+The projector then sends the selected key to the Raspberry Pi over Bluetooth. When
+Sideband is packed away, the projector fits into its own storage slot.
 
-A conventional mouse needs a clear surface, room to move and somewhere to be stowed. A
-trackball needs none of that. It also looks at home on a spaceship or an arcade machine,
-which suits Sideband.
+An ordinary mouse needs a flat surface, room to move and somewhere to be stored. A
+trackball stays in one place while its exposed ball is rolled. It also looks at home on a
+spaceship or an arcade machine, which suits Sideband nicely.
 
-The two illuminated arcade buttons above the ball provide its left and right mouse clicks.
-The trackball also supplies power to their lights, and the whole assembly reaches the
-Raspberry Pi as one USB device through a PS/2-to-USB adapter.
+Two lit-up arcade buttons above the ball act as the left and right mouse buttons. They
+connect through the trackball, which also supplies power to their lights. A PS/2-to-USB
+adapter then connects the complete set to the Raspberry Pi as one USB device.
 
-![TODO::The red laser keyboard projected onto Sideband's silver acrylic deck beside the trackball and two illuminated arcade mouse buttons.](images/sideband-input.jpg){:width="450px"}
+![TODO::The red laser keyboard projected onto Sideband's silver deck beside the trackball and two lit-up arcade mouse buttons.](images/sideband-input.jpg){:width="450px"}
 
 ### Controls and switches
 
-Sideband has eight physical controls: four for lighting, two for pointer input, a key-lock
+Sideband has eight physical controls: four for lighting, two mouse buttons, a key-lock
 mode switch and a safe shutdown button.
 
-The key-lock switch selects between two roles. One position provides a normal Raspberry Pi
-OS workstation; the other turns Sideband into the console for a beginner-friendly local
-penetration-testing game, with its interface extending across both tablets. The game
-itself is still in development.
+The key-lock switch selects one of two modes. In workstation mode, Sideband works like a
+regular Raspberry Pi OS computer. In game mode, it becomes the console for a
+beginner-friendly local penetration-testing game, with the game spread across both
+tablets.
 
-Shutdown is deliberately harder to trigger. A tap does nothing; only a sustained press
-asks Raspberry Pi OS to shut down cleanly. The button never cuts power directly, reducing
-the risk of corrupting data on the microSD card.
+Penetration testing means looking for security weaknesses in a computer or network. It
+must only be carried out on systems you own or have permission to test. Sideband's game
+uses its closed practice network and is still in development.
+
+The shutdown button is deliberately difficult to trigger by accident. A quick press does
+nothing. A long press asks Raspberry Pi OS to finish its work and shut down safely; the
+button never cuts the power directly. This makes files on the microSD memory card less
+likely to be damaged.
 
 + **Key-lock switch** — changes between the Raspberry Pi OS desktop and game mode
 + **Shutdown button** — asks Raspberry Pi OS to shut down after a long press
 + **Mode button** — moves the lighting to its next pattern
 + **Brightness dial** — changes the brightness of the lighting
-+ **Blackout switch** — turns off the main decorative lighting without cutting power to the
++ **Blackout switch** — turns off the main decorative lighting without turning off the
   Raspberry Pi
 + **Lamp switch** — turns on the lights beneath the arcade buttons
-+ **Two arcade buttons** — work as the trackball's left and right mouse buttons
++ **Arcade buttons (two)** — work as the trackball's left and right mouse buttons
 
-![TODO::Close view of Sideband's labelled key-lock, shutdown button, lighting mode button, brightness dial, blackout switch and lamp switch.](images/sideband-controls.jpg){:width="450px"}
+![TODO::Sideband's labelled key-lock, shutdown button, lighting controls and two arcade mouse buttons.](images/sideband-controls.jpg){:width="450px"}
 
 ### Side displays
 
-The two 7-inch Android tablets were previously used at Raspberry Pi Foundation events for
-audience quizzes and forms. They are now too old for modern apps, but their screens remain
-perfectly useful as local dashboards.
+The two 7-inch Android tablets were once used at Raspberry Pi Foundation events for
+audience quizzes and forms. They are now too old for many current apps, but their screens
+still make useful information displays.
 
-The Raspberry Pi hosts their private Wi-Fi network and serves a different local website to
-each tablet. The interfaces therefore work at home, at school or at an event without
-depending on venue Wi-Fi. Only explicitly allowed devices can join this closed lab
-network.
+The Raspberry Pi creates private Wi-Fi and sends a different webpage stored on the Pi to
+each tablet. The displays therefore work at home, at school or at an event without using
+the venue's Wi-Fi or internet connection. Only approved devices can join.
 
-In workstation mode, one tablet shows temperature, memory and storage use, while the other
-reports current network connections, Wi-Fi signal strength and connection details. In
-game mode, that division disappears: both become part of the game display, showing tasks,
-notes and local network information such as connected devices.
+In workstation mode, one tablet shows the Pi's temperature, memory use and storage use.
+The other shows which devices are connected, the strength of the Wi-Fi signal and other
+network details.
 
-![TODO::Sideband's two tablet displays, one showing Raspberry Pi system statistics and the other showing local network information.](images/sideband-tablets.jpg){:width="450px"}
+Game mode gives the tablets a different job. Both become part of the game display, showing
+tasks, notes and information about devices on the local network.
 
-The tablets report information rather than providing general-purpose remote access.
-Neither can type into or control the Raspberry Pi desktop.
+![TODO::Sideband's two tablets, showing temperature, memory and storage information on one screen and local network information on the other.](images/sideband-tablets.jpg){:width="450px"}
 
-When Sideband is packed, both tablets slide edge-on into a slot in the deck surface, where
-they also charge.
+The tablets show information and provide lighting controls, but neither can type into or
+control the Raspberry Pi desktop.
+
+When Sideband is packed away, both tablets are stored upright on their narrow edges in a
+slot in the deck, where they also charge.
 
 ### Lighting and power
 
-Lighting doubles as interface and theatre. Two grids of colour LEDs sit below the acrylic,
-illuminating control labels etched through the silver paint on its underside. An onboard
-Raspberry Pi Pico W drives both grids. Some modes signal error states; others simply make
-startup look properly futuristic.
+The lights are useful as well as dramatic. Two LED grids — rows of small, coloured lights
+— sit below the acrylic deck. The control labels are engraved through the silver paint,
+allowing the LEDs to shine through. A small Raspberry Pi Pico W controls both grids. Some
+light patterns warn that something has gone wrong; others simply make startup look
+properly futuristic.
 
-Either tablet can adjust the grids through its local control panel, while the physical
-mode button and brightness dial remain available at the deck. The hardware blackout
-switch cuts the main decorative lighting immediately, so going dark does not depend on
-software. A separate lamp switch handles the arcade-button lights.
+Either tablet can control the grids through its local webpage. The physical mode button
+and brightness dial provide another way to adjust them. A hardware blackout switch cuts
+the main decorative lighting directly, without using either tablet. A separate lamp
+switch controls the arcade-button lights.
 
-Apart from the grids, a circular LED board illuminates the lid indirectly. It faces the
-mirrored surface behind the display, spreading a soft glow across the panel without direct
-glare.
+A circular LED board in the lid provides a separate glow. It shines towards the mirrored
+surface behind the display, where the light bounces back softly instead of pointing
+straight out of the case.
 
-The entire rig uses a single mains lead. Inside the case, a switched extension
-distributes power to four adapters: one for the Raspberry Pi, one for the main display,
-one for the LED lighting, and one USB charger for the tablets and smaller boards. The system
-is self-contained rather than cordless: it travels as one case and plugs in when opened.
+Everything packs into one case, but Sideband still needs to be plugged into a wall socket.
+A single power cable enters the case. From there, a switched extension lead shares power
+between four adapters: one for the Raspberry Pi, one for the main display, one for the LED
+lighting, and one USB charger for the tablets and smaller boards.
 
-![TODO::Sideband's silver acrylic deck lifted to reveal the Raspberry Pi and cooling system, two LED grids, power adapters and internal cabling.](images/sideband-internals.jpg){:width="450px"}
+![TODO::Internal view of Sideband, showing the Raspberry Pi and cooling system, two LED grids, power adapters and the cables inside.](images/sideband-internals.jpg){:width="450px"}
