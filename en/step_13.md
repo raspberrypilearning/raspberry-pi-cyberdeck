@@ -1,36 +1,131 @@
-## Challenge
+## Sideband
 
-It works. Now make it the one you actually wanted.
+Sideband starts with familiar parts — a Raspberry Pi, a screen and a keyboard — and folds
+them into a sealed hard case about the size of a large briefcase. It is portable, although
+not quite in the laptop sense: everything travels as one piece, then runs from mains power
+when it arrives.
 
-> [!CHALLENGE]
->
-> + Can you add a button that shuts your cyberdeck down safely?
-> + Can you make a light come on by itself at startup, so you can tell from across the room?
-> + Can you run it from a battery, with a light that warns you when the battery is low?
-> + Can you give it one job it does better than any other computer you own?
+Sideband is also a modern, deliberately ironic take on the cyberspace decks imagined by
+William Gibson. His 1984 novel *Neuromancer* follows Case, a hacker who uses a specialised
+cyberspace deck to enter the matrix: a shared, computer-generated world built from
+networks and data. The book helped define cyberpunk.
 
-### Make it start on its own
+In Gibson's story, the deck is an escape hatch from the physical world into the network.
+Sideband reverses the idea: it brings the network into the room and leaves the machinery
+on show. Think of it less as one computer and more as the centre of a small private
+network. The Raspberry Pi, tablets and connected test devices are separate nodes, linked
+by services running on Sideband.
 
-> [!TASK]
->
-> Right now the programs only run from Thonny. Set one to start by itself, so the controls work as soon as the deck is on.
+Most of that network works offline. When an authorised hacking task needs access to the
+wider internet, Sideband can use a controlled route designed to keep its private nodes off
+the public network.
 
-### Add a mode switch
+![TODO::Sideband open on a table, with the screen lit and the control panel glowing.](images/cyberdeck-open.jpg){:width="450px"}
 
-> [!TASK]
->
-> Add a second button that changes what the first one does. Give each mode its own light.
+At the centre is a Raspberry Pi 5 with 8GB of memory, running Raspberry Pi OS. It sits
+below the deck surface; the screen, controls and network services are built around that
+reliable core.
 
-### Take the screen off
+### The case and display
 
-> [!TASK]
->
-> Run your cyberdeck for a day with no screen and no keyboard, using Connect or SSH.
->
-> Work out what you miss. Add a button or a light to replace it.
+The case is more than packaging; it is the frame. A moulded lip around the inside supports
+a 5mm acrylic panel, painted silver on the back and cut to 440mm by 296mm, without needing
+a separate frame. Openings for the controls, sockets and storage slots were all laser-cut
+into that one panel.
 
-### Share it
+The display follows the same reuse-first approach. It came from a pi-topCEED, an older
+Raspberry Pi desktop kit scavenged from a dusty store cupboard, and is mounted on an
+acrylic panel in the lid. Its power-management board sits behind it.
 
-> [!TASK]
->
-> Post a photo of your build, with the one problem that took you longest to solve.
+The display has its own power supply and button, separate from the Raspberry Pi power
+system. That separation is deliberate: the screen can be switched off without stopping
+the computer or its background services.
+
+### Making room for input
+
+The keyboard projector is another cupboard rescue. It came from a Kickstarter project
+years ago, then sat unused until Sideband gave it a job: projecting a keyboard onto the
+acrylic in red laser light. An infrared sensor detects each key press; the projector then
+sends the keystroke to the Raspberry Pi over Bluetooth. When the case is packed, the
+projector slips into its own storage slot.
+
+Think about what a conventional mouse needs: a clear surface, room to move and somewhere
+to be stowed. A trackball needs none of that. It also looks at home on a spaceship or an
+arcade machine, which feels about right here.
+
+The two illuminated arcade buttons above the ball provide its left and right mouse clicks.
+The trackball supplies power to their lights, controlled by the lamp switch, and the whole
+assembly reaches the Raspberry Pi as one USB device through a PS/2-to-USB adapter.
+
+### Controls and switches
+
+Eight physical controls divide the work between lighting, pointer input, mode selection
+and safe shutdown. Four handle the lights, two are mouse buttons, the key-lock switch
+chooses Sideband's role, and the shutdown button requests a safe shutdown. Nothing is
+there simply to look busy.
+
+The key-lock switch gives Sideband two distinct roles. In one position, it is a normal
+Raspberry Pi OS workstation. Turned to game mode, it becomes the console for a
+beginner-friendly penetration-testing game on a private LAN, with both tablets joining the
+game display. The game itself is still in development.
+
+Shutdown is deliberately harder to trigger. A tap does nothing; only a sustained press
+asks Raspberry Pi OS to shut down cleanly. The button never cuts power directly, reducing
+the risk of corrupting data on the microSD card.
+
++ **Key-lock switch** — changes between the Raspberry Pi OS desktop and game mode
++ **Shutdown button** — asks Raspberry Pi OS to shut down after a long press
++ **Mode button** — moves the lighting to its next pattern
++ **Brightness dial** — changes the brightness of the lighting
++ **Blackout switch** — turns off the main decorative lighting without cutting power to the
+  Raspberry Pi
++ **Lamp switch** — turns on the lights beneath the arcade buttons
++ **Two arcade buttons** — work as the trackball's left and right mouse buttons
+
+### Side displays
+
+The two 7-inch Android tablets have already had one working life. They started out at
+Raspberry Pi Foundation events, handling audience quizzes and forms; although they are now
+too old for modern apps, their screens remain perfectly useful. Sideband gives them a
+narrower second job as instrument panels.
+
+The Raspberry Pi creates the small Wi-Fi network they join. Because that tablet network is
+kept separate from the internet, the panels do not depend on whatever Wi-Fi may—or may
+not—be available at home, at school or at an event.
+
+In workstation mode, one tablet shows system information such as temperature, memory use
+and storage use, while the other reports current network connections, Wi-Fi signal
+strength and connection details. In game mode, that division disappears: both become part
+of the game display, showing tasks, notes and local network information such as connected
+devices.
+
+Think of the tablets as instruments, not remote controls. Their authority is deliberately
+narrow: neither can type into or control the Raspberry Pi desktop, although either can
+operate the two LED grids through dedicated on-screen controls.
+
+When Sideband is packed, both tablets slide edge-on into a slot in the deck surface, where
+they also charge.
+
+### Lighting and power
+
+The lighting is part interface, part theatre. Two grids of colour LEDs sit below the
+acrylic, shining through control labels engraved through the silver paint on the back.
+Some lighting modes signal error states. Others simply look good during startup, which is
+reason enough.
+
+Either tablet provides on-screen controls for the two LED grids, but the system does not
+depend on them. For quick changes, the physical mode button and brightness dial remain
+close at hand; the blackout switch cuts the main decorative lighting, while the lamp
+switch handles the arcade-button lights separately.
+
+Rather than shining directly out of the lid, a small circular LED board faces the mirrored
+surface behind the display, spreading reflected light across the panel without direct
+glare.
+
+Despite its internal complexity, Sideband has a single mains lead. Inside the case, a
+switched extension fans the power out to four adapters: one for the Raspberry Pi, one for
+the main display, one for the LED panels, and one USB charger for the tablets and smaller
+boards.
+
+Portable here means self-contained, not cordless. Sideband travels as one case and, once
+set up, asks only for a single mains socket.
