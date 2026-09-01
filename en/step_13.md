@@ -18,12 +18,12 @@ deliberate. Sideband looks as though it has dropped out of a science-fiction fut
 every part has a real job.
 
 The whole system works less like one giant computer and more like a team. The Raspberry
-Pi, tablets and approved test devices are all *nodes* — individual devices on a private
+Pi, tablets and Pico are all *nodes* — individual devices on a private
 local network. Each node has its own job.
 
 Most of this network stays offline. If an authorised security task needs the internet,
 only the main computer is given access. The tablets and test devices remain isolated from
-the public internet. Here, hacking means testing only computers that the person using
+the public internet. Here, 'hacking' means testing only computers that the person using
 Sideband owns or has permission to test.
 
 ![TODO::Sideband open inside its hard case, with the main display, silver deck, controls and two tablet displays visible.](images/sideband-open.jpg){:width="450px"}
@@ -50,7 +50,7 @@ to run.
 
 ### Making room for input
 
-The keyboard projector was first funded through the crowdfunding website Kickstarter,
+The keyboard projector was first bought through the crowdfunding website Kickstarter,
 then sat unused for years. It now projects a keyboard across the acrylic in red laser
 light. An infrared sensor uses light that human eyes cannot see to detect each key press.
 The projector then sends the selected key to the Raspberry Pi over Bluetooth. When
