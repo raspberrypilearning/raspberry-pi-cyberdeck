@@ -134,7 +134,7 @@ and brightness dial provide another way to adjust them. A hardware blackout swit
 the main decorative lighting directly, without using either tablet. A separate lamp
 switch controls the arcade-button lights.
 
-A circular LED board in the lid provides a separate glow. It shines towards the mirrored
+A circular LED board (an old Adafruit Circuit Playground CPX found in a toolbox) in the lid provides a separate glow. It shines towards the mirrored
 surface behind the display, where the light bounces back softly instead of pointing
 straight out of the case.
 
