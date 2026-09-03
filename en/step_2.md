@@ -8,7 +8,7 @@ Most cyberdecks are built around a Raspberry Pi. Several models work well.
 
 **Raspberry Pi 4** is quick enough, and easy to find secondhand.
 
-**Raspberry Pi 400** puts a Pi 4-class computer inside a keyboard, so part of the build is
+**Raspberry Pi 400/500** puts a Pi 4/5-class computer inside a keyboard, so part of the build is
 already done.
 
 **Raspberry Pi Zero boards** are tiny and easy to run from a power bank. Their sockets are
