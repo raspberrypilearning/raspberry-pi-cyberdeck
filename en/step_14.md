@@ -1,12 +1,16 @@
 ## Knitdeck
 
-Knitdeck is a small, handheld cyberdeck built for one job — reading knitting patterns. It shows a pattern on an e-ink screen, and a few buttons turn the pages and hold your place while you knit.
+Knitdeck is a small cyberdeck built for reading knitting patterns. It shows a pattern on an e-ink screen, and a few buttons turn the pages and hold your place while you knit.
 
 ![TODO::The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final.jpg){:width="450px"}
 
-Knitdeck grew out of a love of making and crafts, and a big pile of knitting patterns. The aim was something simple — just for knitting — that felt like it belonged in the craft world rather than the tech one. That look and feel guided every choice that followed.
+### Inspiration
 
-![TODO::A Figma mood board of knitting and craft references, used to set the look and feel.](images/knitdeck-moodboard.jpg){:width="450px"}
+Knitdeck grew out of a love of making and crafts, and a big pile of knitting patterns. The aim was something simple that felt like it belonged in the craft world rather than the tech one.
+
+This is a figma mood board, of inspiration for the look and feel of it.
+
+![A Figma mood board of knitting and craft references, used to set the look and feel.](images/knitdeck-inspo.png){:width="450px"}
 
 ### The enclosure
 
