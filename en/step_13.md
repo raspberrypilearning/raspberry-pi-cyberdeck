@@ -47,3 +47,6 @@ mission.
 >
 > If you share it online, ask a parent or guardian first. Keep passwords, network details,
 > your full name and your location out of the picture.
+>
+> If you make a cyberdeck and come to a **Coolest Projects** event, bring it along and
+> show us! We would love to see what you built.
