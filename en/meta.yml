@@ -22,6 +22,7 @@ steps:
     completion:
       - internal
   - title: Example - Sideband
+  - title: Example - Knitdeck
   - title: Challenge
     challenge: true
     completion:
