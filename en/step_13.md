@@ -106,14 +106,25 @@ The Raspberry Pi creates private Wi-Fi and sends a different webpage stored on t
 each tablet. The displays therefore work at home, at school or at an event without using
 the venue's Wi-Fi or internet connection. Only approved devices can join.
 
-In workstation mode, one tablet shows the Pi's temperature, memory use and storage use.
-The other shows which devices are connected, the strength of the Wi-Fi signal and other
-network details.
+In workstation mode, the screens act as Sideband's instrument panel. The System view
+reports processor load, temperature, memory, storage and power status. Network shows the
+wired and wireless connections, along with the traffic moving through them. These
+prototype screenshots use simulated readings while the live data services are being
+finished.
 
-Game mode gives the tablets a different job. Both become part of the game display, showing
-tasks, notes and information about devices on the local network.
+![Sideband's System display, using simulated readings to show processor use, memory, temperature, storage, uptime and power status.](images/hud-01-system.png){:width="450px"}
 
-![TODO::Sideband's two tablets, showing temperature, memory and storage information on one screen and local network information on the other.](images/sideband-tablets.jpg){:width="450px"}
+![Sideband's Network display, using simulated data to show the wired and wireless connections and their activity.](images/hud-02-network.png){:width="450px"}
+
+When game mode is selected, the same screens become part of the training mission. Scope
+marks out what may be tested, and through which connections, while Notes provides a field
+log for recording discoveries.
+
+![Sideband's Scope display, listing the authorised practice range, approved targets and permitted network connections.](images/hud-03-scope.png){:width="450px"}
+
+![Sideband's Notes display, with an operator field log, a note-entry box and reminders about authorised use.](images/hud-04-notes.png){:width="450px"}
+
+![TODO::Sideband's two tablets mounted in the case beside the main display and controls.](images/sideband-tablets.jpg){:width="450px"}
 
 The tablets show information and provide lighting controls, but neither can type into or
 control the Raspberry Pi desktop.

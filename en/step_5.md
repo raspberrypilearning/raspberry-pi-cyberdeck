@@ -1,7 +1,8 @@
 ## Choose input devices
 
 A screen lets your cyberdeck show you what it is doing. **Input devices** let you answer.
-Every deck needs a way to type and, for most desktop apps, a way to point and click.
+For this project, you need a way to type and, for most desktop apps, a way to point and
+click.
 
 ### Choose how you type
 
@@ -13,6 +14,8 @@ combine or remove more keys.
 **A mini keyboard with a built-in trackpad** does both jobs in one small unit, although
 tiny keys can become tiring during a long session.
 
+![Full-size, compact and mini keyboards shown at relative sizes; the mini keyboard has a built-in trackpad.](images/input-keyboard-options.png){:width="450px"}
+
 ### Choose how you point
 
 **A mouse** is familiar and precise, but it needs a flat surface and room to move.
@@ -23,17 +26,22 @@ into a compact case. A touchscreen can replace a separate pointing device for ma
 Buttons, joysticks and dials count too. They can make a finished deck brilliant at one
 job, but keep a keyboard nearby while you build and test it.
 
+![A mouse, trackpad, trackball and touchscreen shown as different ways to control a pointer.](images/input-pointer-options.png){:width="450px"}
+
 ### Choose how they connect
 
 **Wired USB** is dependable and needs no batteries, but a separate keyboard and mouse
 usually use two sockets.
 
+Some keyboards have a built-in USB hub. Plug the mouse into the keyboard to keep one
+Raspberry Pi socket free.
+
 **A wireless USB receiver** removes the long cables but still uses a socket. A matched
 keyboard and mouse may share one receiver.
 
 **Bluetooth** can keep the USB sockets free, but the devices need pairing and power.
-Older Raspberry Pi models may need a USB Bluetooth adaptor, so keep a wired or
-receiver-based keyboard handy for the first setup.
+Raspberry Pi models without built-in Bluetooth need a USB Bluetooth adaptor, so keep a
+wired or receiver-based keyboard handy for the first setup.
 
 > [!TASK]
 >
