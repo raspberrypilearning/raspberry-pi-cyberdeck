@@ -11,7 +11,7 @@ steps:
   - title: Install Raspberry Pi OS
     completion:
       - engaged
-  - title: Choose a keyboard
+  - title: Choose input devices
   - title: Choose a display
   - title: Set up your Raspberry Pi
   - title: Use Raspberry Pi Connect

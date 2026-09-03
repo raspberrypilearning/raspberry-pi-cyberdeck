@@ -8,7 +8,8 @@ Time to switch it on for the first time.
 >
 > Put the microSD card into the slot underneath. It goes in one way round, and should not need forcing.
 >
-> Connect the display and the keyboard.
+> Connect the display, keyboard and your chosen pointing device. You can skip the last
+> one if you are using a touchscreen.
 >
 > Connect the power last. There is no on switch.
 

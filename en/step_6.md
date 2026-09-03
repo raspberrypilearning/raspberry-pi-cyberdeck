@@ -8,7 +8,7 @@ The display shapes the build more than anything else.
 
 **A small HDMI screen** is the usual choice for a finished deck. From about 3 inches upwards. Most need a USB cable for power.
 
-**The Raspberry Pi Touch Display** connects by ribbon cable instead of HDMI, so it keeps the HDMI socket free. Being a touchscreen, it replaces the mouse.
+**The Raspberry Pi Touch Display** connects by ribbon cable instead of HDMI, so it keeps the HDMI socket free. Its touchscreen can replace a separate mouse for many jobs.
 
 **E-paper** looks like a page of a book and uses almost no power. It redraws slowly, and most are black and white. Good for reading, no good for video.
 

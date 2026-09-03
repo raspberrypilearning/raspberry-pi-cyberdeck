@@ -20,9 +20,9 @@ Most cyberdecks are built around a Raspberry Pi. Several models work well.
 
 > [!TASK]
 >
-> Pick your Raspberry Pi.
+> Pick your Raspberry Pi. Think mostly about how it will get its power supply:
 >
-> Mains power means any model works. Battery power points to a Zero.
+> Plugging-in to mains power means any model will work if you have the right Power supply. Battery or portable power banks means a Zero is probably your best bet.
 
 > [!TIP]
 >

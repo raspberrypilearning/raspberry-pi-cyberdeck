@@ -6,7 +6,7 @@ The case turns a pile of parts into a cyberdeck. This is the step with the fewes
 
 > [!TASK]
 >
-> Measure your parts. The Raspberry Pi, the display, the keyboard, and anything else going in.
+> Measure your parts: the Raspberry Pi, display, input devices and anything else going in.
 >
 > Measure the parts in your hand, not the sizes on the website. Those are often wrong by a few millimetres.
 

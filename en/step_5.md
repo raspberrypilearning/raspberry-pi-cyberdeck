@@ -1,35 +1,63 @@
-## Choose a keyboard
+## Choose input devices
 
-The keyboard is the part of a cyberdeck you touch most.
+A screen lets your cyberdeck show you what it is doing. **Input devices** let you answer.
+Every deck needs a way to type and, for most desktop apps, a way to point and click.
 
-![Four keyboards of very different sizes laid out together.](images/keyboard-options.png){:width="450px"}
+### Choose how you type
 
-**Full-size USB** is easiest to type on, and the biggest.
+**A full-size keyboard** is roomy and familiar, but it makes the case wide.
 
-**Compact** drops the number pad. Much smaller, types nearly as well.
+**A compact keyboard** saves space. Some remove only the number pad; smaller layouts
+combine or remove more keys.
 
-**Mini with a trackpad** means no mouse. The keys are cramped.
+**A mini keyboard with a built-in trackpad** does both jobs in one small unit, although
+tiny keys can become tiring during a long session.
 
-**Wireless** connects by USB dongle or Bluetooth. A dongle uses a USB socket. Bluetooth needs pairing.
+### Choose how you point
 
-**Homemade**, if you want the deck to be yours all the way down.
+**A mouse** is familiar and precise, but it needs a flat surface and room to move.
+
+**A trackpad or trackball** stays in one place, which makes either one easier to build
+into a compact case. A touchscreen can replace a separate pointing device for many jobs.
+
+Buttons, joysticks and dials count too. They can make a finished deck brilliant at one
+job, but keep a keyboard nearby while you build and test it.
+
+### Choose how they connect
+
+**Wired USB** is dependable and needs no batteries, but a separate keyboard and mouse
+usually use two sockets.
+
+**A wireless USB receiver** removes the long cables but still uses a socket. A matched
+keyboard and mouse may share one receiver.
+
+**Bluetooth** can keep the USB sockets free, but the devices need pairing and power.
+Older Raspberry Pi models may need a USB Bluetooth adaptor, so keep a wired or
+receiver-based keyboard handy for the first setup.
 
 > [!TASK]
 >
-> Pick your keyboard.
+> Start with input devices you already have. Connect a keyboard and either a mouse,
+> trackpad or trackball. A keyboard-and-trackpad combination can do both jobs.
 >
-> Hold it against your case first, or against the space where the case will go.
+> Type a short sentence and some numbers. Move the pointer, scroll and test both clicks.
+> If everything responds, you have enough to continue.
+>
+> Lay the devices where the finished case might go. Check that your hands fit, and leave
+> room for the screen, plugs and cables.
 
 > [!TIP]
 >
-> Three things to check.
+> Before choosing the final controls, check three things:
 >
-> **USB sockets** — count what else needs one.
+> **Fit** — measure the width, depth and height, including plugs and cable bends.
 >
-> **Batteries** — one more thing to charge.
+> **Sockets and power** — count the USB connections, batteries and charging cables.
 >
-> **Plug size** — a Raspberry Pi Zero has micro USB sockets.
+> **Comfort** — the smallest option is not always the nicest one to use.
 
-> [!TIP]
+> [!INFO]
 >
-> No need to decide yet. Use any keyboard to get started, and swap it once the case exists.
+> A Raspberry Pi Zero needs a **Micro-USB OTG adaptor** or hub for an ordinary USB
+> keyboard, mouse or wireless receiver. Connect it to the USB data socket, not the one
+> labelled **PWR IN**.
