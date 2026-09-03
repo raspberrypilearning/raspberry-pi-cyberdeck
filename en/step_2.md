@@ -12,18 +12,9 @@ Most cyberdecks are built around a Raspberry Pi. Several models work well.
 
 **Older models** work too.
 
-> [!INFO]
->
-> **GPIO pins** are the two rows of metal pins along one edge. Buttons and lights connect there.
->
-> ![The 40-pin GPIO header on a Raspberry Pi.](images/gpio-header.png){:width="450px"}
-
 > [!TASK]
 >
-> Pick your Raspberry Pi. Think mostly about how it will get its power supply:
+> Pick your Raspberry Pi. Think mostly about how it will get its power:
 >
-> Plugging-in to mains power means any model will work if you have the right Power supply. Battery or portable power banks means a Zero is probably your best bet.
-
-> [!TIP]
->
-> Raspberry Pi Zero boards come with or without the pins attached. The kind with pins already on is easiest. The other kind needs soldering.
+> Plugging into mains power means any model will work if you have the right power supply.
+> For a battery or portable power bank, a Zero is probably your best bet.

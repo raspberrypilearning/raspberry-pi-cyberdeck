@@ -1,101 +1,65 @@
-## Add a button
+## Build an enclosure
 
-On a shop-bought computer, every button does what somebody else decided. On yours, you choose.
+The case turns a pile of parts into a cyberdeck. This is the step with the fewest rules.
 
-![A button on a breadboard wired to a Raspberry Pi.](images/button-wired.png){:width="450px"}
-
-> [!INFO]
->
-> **GPIO** is short for general purpose input and output. **Input** pins listen. **Output** pins act. A button is an input.
->
-> ![A GPIO pin diagram with GPIO 17 and a ground pin marked.](images/gpio-pinout-button.png){:width="450px"}
+![Two finished cyberdecks with very different cases.](images/enclosure-examples.png){:width="450px"}
 
 > [!TASK]
 >
-> Shut down before wiring anything.
+> Measure your parts: the Raspberry Pi, display, input devices and anything else going in.
 >
-> ```bash
-> sudo shutdown -h now
-> ```
->
-> Wait for the light by the card slot to stop flashing, then unplug the power.
-
-> [!TASK]
->
-> Wire one leg of the button to **GPIO 17**. Wire the other leg to a **ground** pin.
->
-> Either leg, either way round.
+> Measure the parts in your hand, not the sizes on the website. Those are often wrong by a few millimetres.
 
 > [!TIP]
 >
-> A four-legged button is two pairs joined across the middle. Not working? Turn it a quarter turn.
+> Measure the cables too. An HDMI plug can stick out further than the Raspberry Pi is wide.
+
+Cases come in a few kinds. None is better than the others.
+
+**Something that already exists** — a lunch box, a camera case, a book, a tin.
+
+**Cardboard** — free, cuts with a knife, and three wrong versions in an afternoon.
+
+**Laser-cut acrylic or plywood** — draw the panels flat and slot them together.
+
+**A 3D print** — for a shape no other method gives you.
 
 > [!TASK]
 >
-> Plug the power back in.
+> Make a cardboard version first, whatever the real one gets made from.
 >
-> Open **Thonny**, from the raspberry menu under **Programming**.
+> Cut the holes, put the parts in, close it, pick it up.
 
-> [!TASK]
->
-> Type this and save it as `button.py`.
->
-> ```python
-> from gpiozero import Button
->
-> button = Button(17)
-> ```
-
-> [!TASK]
->
-> Add two lines, then run it and press the button.
->
-> ```python
-> button.wait_for_press()
-> print("You pressed the button")
-> ```
-
-**Test:** The message appears in the shell at the bottom of Thonny.
-
-> [!DEBUG]
->
-> Nothing happens? Push both wires all the way on. Check one is on a ground pin, not a power pin.
->
-> Message appears straight away? The wires are probably touching.
-
-One press and it stops. Make it keep listening.
-
-> [!TASK]
->
-> Replace the last two lines with a loop.
->
-> ```python
-> while True:
->     button.wait_for_press()
->     print("You pressed the button")
->     button.wait_for_release()
-> ```
-
-**Test:** One message per press, as many times as you like.
-
-> [!TASK]
->
-> Now make it do something you want.
->
-> This one prints the temperature of your Raspberry Pi.
->
-> ```python
-> from gpiozero import Button, CPUTemperature
->
-> button = Button(17)
-> cpu = CPUTemperature()
->
-> while True:
->     button.wait_for_press()
->     print(cpu.temperature)
->     button.wait_for_release()
-> ```
+![A cardboard prototype case with parts inside it.](images/cardboard-prototype.png){:width="450px"}
 
 > [!TIP]
 >
-> Decide what your buttons are for before cutting holes for them.
+> Four things to plan.
+>
+> **Holes** for every socket you still need to reach.
+>
+> **Air**, so the Raspberry Pi does not overheat.
+>
+> **Fixings** to hold everything still.
+>
+> **A way back in**, for when you want to change something.
+
+> [!TASK]
+>
+> Build your case. Put your cyberdeck in it.
+
+**Test:** Close it, carry it to another room, open it, switch it on. Still works.
+
+![The finished budgetdeck being carried.](images/budgetdeck-carried.png){:width="450px"}
+
+> [!TASK]
+>
+> Take a photo of your finished cyberdeck.
+
+> [!TIP]
+>
+> Two decks built while making this project.
+>
+> [The budgetdeck](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG)
+>
+> [The knitdeck](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG)

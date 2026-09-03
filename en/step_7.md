@@ -64,4 +64,5 @@ The first start is slow. With Imager settings filled in, it goes straight to the
 
 > [!TIP]
 >
-> Hover over the network icon. It shows the name of your Raspberry Pi and its **IP address**. Note both down for the next two steps.
+> Hover over the network icon. It shows the name of your Raspberry Pi and its **IP
+> address**. Keep both handy for the SSH step.

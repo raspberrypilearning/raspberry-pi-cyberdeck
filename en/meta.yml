@@ -16,8 +16,6 @@ steps:
   - title: Set up your Raspberry Pi
   - title: Use Raspberry Pi Connect
   - title: Connect with SSH
-  - title: Add a button
-  - title: Add lights
   - title: Build an enclosure
     completion:
       - internal

@@ -32,5 +32,4 @@ Yours might read knitting patterns, play music, write with no internet, or do so
 - a microSD card
 - a power supply
 - a keyboard and a display
-- a button, an LED, a 330 ohm resistor and jumper wires
 - materials for a case
