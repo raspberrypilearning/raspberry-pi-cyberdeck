@@ -2,13 +2,17 @@
 
 Most cyberdecks are built around a Raspberry Pi. Several models work well.
 
-![A Raspberry Pi 5, a Raspberry Pi 4 and a Raspberry Pi Zero 2 W next to each other for size.](images/pi-models-compared.png){:width="450px"}
+![A Raspberry Pi Zero, Raspberry Pi 4, Raspberry Pi 1 Model B+, original Raspberry Pi Model B Revision 1 and Raspberry Pi 400 arranged together.](images/pi-models-compared.jpg){:width="450px"}
 
 **Raspberry Pi 5** is the fastest. It needs the most power.
 
 **Raspberry Pi 4** is quick enough, and easy to find secondhand.
 
-**Raspberry Pi Zero 2 W** is tiny and runs from a battery. It is slower, and its sockets are smaller.
+**Raspberry Pi 400** puts a Pi 4-class computer inside a keyboard, so part of the build is
+already done.
+
+**Raspberry Pi Zero boards** are tiny and easy to run from a power bank. Their sockets are
+smaller, and the original Zero in the photograph is much slower than the Zero 2 W.
 
 **Older models** work too.
 
