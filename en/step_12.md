@@ -2,7 +2,7 @@
 
 Knitdeck is a small cyberdeck built for reading knitting patterns. It shows a pattern on an e-ink screen, and a few buttons turn the pages and hold your place while you knit.
 
-![TODO::The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final.jpg){:width="450px"}
+![TODO::The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final1.jpg){:width="450px"}
 
 ### Inspiration
 
@@ -16,11 +16,15 @@ This is a figma mood board, of inspiration for the look and feel of it.
 
 Knitdeck started from an old 1990s sewing box, bought second-hand — the kind that often turns up in charity shops and thrift stores. It already carried the craft feel the project was reaching for.
 
-![TODO::The second-hand 1990s sewing box used as the enclosure.](images/knitdeck-enclosure.jpg){:width="450px"}
+![TODO::The second-hand 1990s sewing box used as the enclosure.](images/knitdeck-case.png){:width="450px"}
 
 ### Making everything fit
 
-Next came working out how everything would fit inside. The first plan was optimistic — the real parts needed far more room than expected. Laying the components out by hand, including the battery and the Raspberry Pi, showed what would actually fit and where each piece could go.
+Next is working out how everything fits inside. The first plan was optimistic. 
+
+![TODO::The parts laid out in the box to plan where the battery and Raspberry Pi would sit.](images/knitdeck-design.png){:width="450px"}
+
+The real parts needed far more room than expected. Laying the components out by hand, including the battery and the Raspberry Pi, showed what would actually fit and where each piece could go.
 
 ![TODO::The parts laid out in the box to plan where the battery and Raspberry Pi would sit.](images/knitdeck-layout.jpg){:width="450px"}
 
