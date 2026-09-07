@@ -14,30 +14,43 @@ Collecting inspiration is a good start. This is a figma mood board, of reference
 
 ![A Figma mood board of knitting and craft references, used to set the look and feel.](images/knitdeck-inspo.png){:width="450px"}
 
+### The software
+
+The software was added using SSH. It shows the knitting pattern on the screen and moves through pages of the pattern with the buttons.
+
+![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="450px"}
+
+The buttons needed to be mapped in the config file.
+
+![The config that maps each button.](images/knitdeck-software-config.png){:width="450px"}
+
+### Testing
+
+The software, screen and buttons were tested before the cyberdeck was assembled. 
+
+![Testing everything before the deck was assembled.](images/knitdeck-test.jpg){:width="450px"}
+
+Buttons can be tested by connecting a breadboard with buttons to the Raspberry Pi.
+
+![Add.](images/knitdeck-inital-test.jpg){:width="450px"}
+
+Once the parts are tested, it is helpful to draw the circuit out. This can be done on paper or by using a tool like Frizing (add link).
+
+![add - image of circuit diagram](images/add.jpg){:width="450px"}
+
 ### The enclosure
 
-Knitdeck started with an early 2000s sewing box, that was bought second-hand. This kind of box often turns up in charity shops and thrift stores. It already carried the craft feel the project was reaching for.
+Knitdeck is mounted inside a second hand sewing box. This kind of box can be found in charity shops and thrift stores. It gave the project a crafty feel.
 
 ![The second-hand 1990s sewing box used as the enclosure.](images/knitdeck-case.png){:width="450px"}
 
-### Making everything fit
-
-Before starting, it is helpful to map out how the screen, keys and Raspberry Pi would sit inside. In the end the parts needed more room than expected, so the design changed through the making process.
-
-![The first plan for where the battery and Raspberry Pi would go.](images/knitdeck-design.png){:width="450px"}
-
-
 ### Adding buttons
-
-Before adding the mechanical buttons it is helpful to test how they will work. This can be done by connecting a breadboard with buttons to the Raspberry Pi.
-
-![Add.](images/knitdeck-inital-test.jpg){:width="450px"}
 
 A lot of the structure is made from adding the components to cardboard. The best way to do this is to draw where the parts go first, then cut.
 
 ![Arranging the buttons for the bottom part.](images/knitdeck-arrangebuttons.gif){:width="450px"}
 
-The buttons sit on a soft board, stuffed with wadding.
+The wadding was added to the card to give it a soft feel.
 
 ![Adding wadding to the bottom button part.](images/knitdeck-wadding.gif){:width="450px"}
 
@@ -47,27 +60,26 @@ Cardboard can be glued with PVA glue or held together with tape.
 
 ### Soldering
 
-Soldering is fiddly, and a cyberdeck with a regular keyboard is far simpler — even a few buttons adds a tangle of wires to manage.
+Soldering is fiddly, and a cyberdeck with a regular keyboard is far simpler.
 
+The order of assmebling parts is important, becasue the are soldered into to place. 
 
+First wires are soldered to the buttons.
+![ADD .](images/knitd.gif){:width="450px"}
 
-The buttons are soldered then glued into the cardboard.
+Then buttons are a glued into the cardboard.
 
 ![The buttons working after soldering.](images/knitdeck-keys.gif){:width="450px"}
 
 ![The soldering set-up for the button wires.](images/knitdeck-solderingset-up.jpg){:width="450px"}
 
-Finally buttons and all GPIO parts are soldered to the board. 
+Finally wires from the buttons are soldered.
 
-To keep track, use diagrams and draw out the circuit first.
+Wires are soldered to a circuit board, then headers used to connect to the Raspberry Pi GPIO pins.
 
-![add - image of circuit diagram](images/add.jpg){:width="450px"}
-
-This cycberdeck uses a circuit board to solder all the wires to, then headers to connect to the Raspberry Pi GPIO pins.
+![ADD - solder wires.](images/knit0deck-parts.jpg){:width="450px"}
 
 ![Soldering the button wires.](images/knitdeck-soldering-parts.jpg){:width="450px"}
-
-Only solder after testing, and being certain where all the wires go.
 
 ![Soldering the button wires.](images/knitdeck-soldering.gif){:width="450px"}
 
@@ -78,26 +90,18 @@ There a 6 buttons, and multiple wires for the e-ink screen, so once soldered int
 
 ### Placing the screen
 
+The screen is attached to a cardboard surface, so there is space for the boards and wires behind it.
+
 ![Cutting the card for the top part that holds the screen.](images/knitdeck-cutout-card.gif){:width="450px"}
-
-### The software
-
-The software came together bit by bit over SSH, going back and forth with the code. It shows the pattern pages on the screen and moves through them with the buttons, each one mapped to a page turn or the stitch count. Everything was tested before the deck was assembled.
-
-![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="450px"}
-
-![The config that maps each button.](images/knitdeck-software-config.png){:width="450px"}
-
-![Testing everything before the deck was assembled.](images/knitdeck-test.jpg){:width="450px"}
-
-### Powering
-
-![Drilling a hole for the power cable.](images/knitdeck-drill.gif){:width="450px"}
 
 ### Making it yours
 
-One of the best parts was decorating it and making it personal.
+One of the best parts is decorating and making cyberdecks personal. The knitdeck was decorated with beads, that were sewn into the fabric covering.
 
 ![The decorated Knitdeck, with a close-up of the details.](images/knitdeck-deco.gif){:width="450px"}
 
 ![A close-up detail of the finished Knitdeck.](images/knitdeck-detail1.jpg){:width="450px"}
+
+Wires were covered using a macrame knotting technique.
+
+![ADD - close-up detail of the wires.](images/knitdeck-macrame.gif){:width="450px"}
