@@ -10,29 +10,27 @@ Knitdeck is a small cyberdeck built for reading knitting patterns. It shows a pa
 
 Knitdeck grew out of a love of making and crafts. The aim was to make a cyberdeck that felt like it belonged in the craft world rather than the tech one.
 
-Collecting inspiration is a good start. This is a figma mood board, of references for the look and feel of it.
+Collecting inspiration is a good start. This is a figma [add link] mood board, with references for the look and feel of it.
 
 ![A Figma mood board of knitting and craft references, used to set the look and feel.](images/knitdeck-inspo.png){:width="450px"}
 
-### The software
+### Testing the software
 
-The software was added using[add link to ssh page in project ] SSH. It shows the knitting pattern on the screen and moves through pages of the pattern with the buttons.
+The software was added using[add link to ssh page in project ] SSH. 
 
 ![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="450px"}
 
-### Testing
-
-The screen and buttons were tested with the software before the cyberdeck was assembled. 
+The software test shows the knitting pattern on the screen and moves through pages of the pattern with the buttons. 
 
 ![Testing everything before the deck was assembled.](images/knitdeck-test.jpg){:width="450px"}
 
 Buttons can be tested by connecting a breadboard with buttons to the Raspberry Pi.
 
-![Add.](images/knitdeck-inital-test.jpg){:width="450px"}
+![Add.](images/knitdeck-intial-test.jpg){:width="450px"}
 
-Once the parts are tested, it is helpful to draw the circuit out. This can be done on paper or by using a tool like Frizing (add link).
+Once the parts are tested, it is helpful to draw the final circuit design out. This can be done on paper or by using a tool like Frizing (add link).
 
-![add - image of circuit diagram](images/add.jpg){:width="450px"}
+![add - image of circuit diagram](images/knitdeck-circuit.png){:width="450px"}
 
 ### The enclosure
 
@@ -42,11 +40,11 @@ Knitdeck is mounted inside a second hand sewing box. This kind of box can be fou
 
 ### Adding buttons
 
-Buttons are mounted onto cardboard. Draw where the parts go first.
+Buttons are mounted onto cardboard. To do this, start by drawing where the parts go.
 
 ![Arranging the buttons for the bottom part.](images/knitdeck-draw-buttons.jpg){:width="450px"}
 
-Then cut out.
+Then cut out holes.
 
 ![Arranging the buttons for the bottom part.](images/knitdeck-cutout.jpg){:width="450px"}
 
@@ -69,13 +67,13 @@ Soldering can be fiddly, and a cyberdeck with a regular keyboard that does not n
 
 The order of soldering parts is important. First wires are soldered to the buttons.
 
-![ADD .](images/knitd.gif){:width="450px"}
+![ADD .](images/knitdeck-solder-button.png){:width="450px"}
 
-Then buttons are a glued into the cardboard.
+Then buttons are thread through and glued into the cardboard.
+
+
 
 ![The buttons working after soldering.](images/knitdeck-keys.gif){:width="450px"}
-
-![The soldering set-up for the button wires.](images/knitdeck-solderingset-up.jpg){:width="450px"}
 
 Finally wires from the buttons are soldered.
 
@@ -100,9 +98,11 @@ The screen is attached to a cardboard surface, so there is space for the boards 
 
 ### Making it yours
 
-One of the best parts is decorating and making cyberdecks personal. The knitdeck was decorated with beads, that were sewn into the fabric covering.
+One of the best parts is decorating and making cyberdecks personal.
 
 ![The decorated Knitdeck, with a close-up of the details.](images/knitdeck-deco.gif){:width="450px"}
+
+The knitdeck was decorated with beads, that were sewn into the fabric covering.
 
 ![A close-up detail of the finished Knitdeck.](images/knitdeck-detail1.jpg){:width="450px"}
 
