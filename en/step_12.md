@@ -112,7 +112,7 @@ One of the best parts is decorating and making cyberdecks personal.
 
 ![Decorating the finished Knitdeck.](images/knitdeck-deco.gif){:width="550px"}
 
-The Knitdeck is decorated with beads that were sewn into the fabric covering.
+The Knitdeck is decorated with beads that are sewn into the fabric covering.
 
 ![A close-up of the beads sewn into the fabric covering.](images/knitdeck-detail1.jpg){:width="450px"}
 
