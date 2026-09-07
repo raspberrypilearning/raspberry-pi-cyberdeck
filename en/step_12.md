@@ -1,6 +1,6 @@
 ## Knitdeck
 
-Knitdeck is a small cyberdeck built for reading knitting patterns. It shows a pattern on an e-ink screen, and you can turn the pages and hold your place while you knit with mechanical buttons.
+Knitdeck is a small cyberdeck built for reading knitting patterns. It shows a pattern on an e-ink screen, and you can turn the pages with mechanical buttons.
 
 ![The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final4.jpg){:width="550px"}
 
@@ -78,9 +78,9 @@ Then the wired buttons are threaded through and glued into the cardboard.
 
 The screen is positioned in a removable tray that fits inside the box lid.
 
-![The screen in a removable tray that fits inside the box lid.](images/knitdeck-incase.jpg){:width="450px"}
+![The screen in a removable tray that fits inside the box lid.](images/knitdeck-incase.jpg){:width="550px"}
 
-It is attached to cardboard, so there is space for the board and wires behind it.
+It is attached to layers of cardboard, so there is space for the board and wires behind it.
 
 ![Attaching the screen to cardboard with space behind for the board and wires.](images/knitdeck-card1.gif){:width="550px"}
 
@@ -92,17 +92,19 @@ It is attached to cardboard, so there is space for the board and wires behind it
 
 The other end of the wires from the buttons and screen are soldered to a perf-board, which is a circuit board with lots of holes in it.
 
-![Soldering the wires to the perf-board.](images/knitdeck-solderingset-up.jpg){:width="550px"}
-
 Headers are soldered to the board and connected to the wires.
 
-![Soldering the and headters.](images/knitdeck-board.png){:width="550px"}
+![Soldering the wires to the perf-board.](images/knitdeck-solderingset-up.jpg){:width="550px"}
 
-This is then plugged into the Raspberry Pi GPIO pins.
+![Soldering the headers to the board.](images/knitdeck-board.png){:width="550px"}
 
 There are 6 buttons, and multiple wires for the e-ink screen, so the wiring can look like a bit of a tangle.
 
 ![The tangle of wires from the buttons and screen.](images/knitdeck-tangle.jpg){:width="450px"}
+
+This is then plugged into the Raspberry Pi GPIO pins.
+
+![Connected Raspberry pi](images/knitdeck-gpio.png){:width="450px"}
 
 ### Making it yours
 
