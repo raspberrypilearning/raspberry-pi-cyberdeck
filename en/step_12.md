@@ -16,17 +16,13 @@ Collecting inspiration is a good start. This is a figma mood board, of reference
 
 ### The software
 
-The software was added using SSH. It shows the knitting pattern on the screen and moves through pages of the pattern with the buttons.
+The software was added using[add link to ssh page in project ] SSH. It shows the knitting pattern on the screen and moves through pages of the pattern with the buttons.
 
 ![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="450px"}
 
-The buttons needed to be mapped in the config file.
-
-![The config that maps each button.](images/knitdeck-software-config.png){:width="450px"}
-
 ### Testing
 
-The software, screen and buttons were tested before the cyberdeck was assembled. 
+The screen and buttons were tested with the software before the cyberdeck was assembled. 
 
 ![Testing everything before the deck was assembled.](images/knitdeck-test.jpg){:width="450px"}
 
@@ -40,31 +36,39 @@ Once the parts are tested, it is helpful to draw the circuit out. This can be do
 
 ### The enclosure
 
-Knitdeck is mounted inside a second hand sewing box. This kind of box can be found in charity shops and thrift stores. It gave the project a crafty feel.
+Knitdeck is mounted inside a second hand sewing box. This kind of box can be found in charity shops and thrift stores. It gives the project a crafty feel.
 
 ![The second-hand 1990s sewing box used as the enclosure.](images/knitdeck-case.png){:width="450px"}
 
 ### Adding buttons
 
-A lot of the structure is made from adding the components to cardboard. The best way to do this is to draw where the parts go first, then cut.
+Buttons are mounted onto cardboard. Draw where the parts go first.
 
-![Arranging the buttons for the bottom part.](images/knitdeck-arrangebuttons.gif){:width="450px"}
+![Arranging the buttons for the bottom part.](images/knitdeck-draw-buttons.jpg){:width="450px"}
 
-The wadding was added to the card to give it a soft feel.
+Then cut out.
+
+![Arranging the buttons for the bottom part.](images/knitdeck-cutout.jpg){:width="450px"}
+
+Wadding and fabric are added to the card to give it a soft feel.
 
 ![Adding wadding to the bottom button part.](images/knitdeck-wadding.gif){:width="450px"}
 
-Cardboard can be glued with PVA glue or held together with tape.
+Cardboard is a great material to use because it is easy to get hold of and can be glued with PVA glue or held together with tape.
 
 ![Gluing the bottom button part together.](images/knitdeck-glue.gif){:width="450px"}
 
+Make sure there is enough space to add the Raspberry Pi and wires under the buttons.
+
+![bottom button part together.](images/knitdeck-adding-structure.gif){:width="450px"}
+
+
 ### Soldering
 
-Soldering is fiddly, and a cyberdeck with a regular keyboard is far simpler.
+Soldering can be fiddly, and a cyberdeck with a regular keyboard that does not need to be soldered is far simpler.
 
-The order of assmebling parts is important, becasue the are soldered into to place. 
+The order of soldering parts is important. First wires are soldered to the buttons.
 
-First wires are soldered to the buttons.
 ![ADD .](images/knitd.gif){:width="450px"}
 
 Then buttons are a glued into the cardboard.
