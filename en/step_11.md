@@ -27,7 +27,7 @@ over Bluetooth. The projector has its own storage slot.
 A trackball needs no room to move. Two illuminated arcade buttons act as its left
 and right mouse buttons, with the whole set connected through a PS/2-to-USB adapter.
 
-![Sideband's main display above the silver deck, with a red projected keyboard, illuminated trackball, arcade buttons and switches.](images/cyberdeck-only.jpg){:width="450px"}
+![Close-up of Sideband's red projected keyboard, green illuminated trackball and two arcade mouse buttons on the silver deck.](images/sideband-input.jpg){:width="450px"}
 
 A key-lock switch selects the desktop or a local security-training game, which is
 still in development. The game uses an isolated practice network: security testing
