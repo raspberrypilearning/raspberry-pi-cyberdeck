@@ -30,12 +30,10 @@ Two reused 7-inch Android tablets show webpages served by the Pi over its privat
 
 In desktop mode, **System** shows processor load, temperature, memory, storage and power status; **Network** shows connections and traffic. In game mode, **Scope** sets out the permitted targets and **Notes** provides a field log.
 
-The tablets also control the lighting, but cannot control the Pi desktop. They charge in a slot in the deck when packed away.
+The tablets also control the lighting, but cannot control the Pi desktop. They charge in a slot above the keyboard when packed away.
 
 ### Lighting and power
 
-A Pico W controls two LED grids beneath the acrylic, shining through engraved labels. Patterns can signal problems or add a futuristic startup effect. Either tablet, a mode button or a brightness dial can adjust the lights. A blackout switch cuts the decorative lighting, and a separate switch controls the arcade-button lamps.
-
-A reused Circuit Playground board adds a glow behind the display, reflected by the mirrored surface in the lid.
+A Pico W controls two LED grids beneath the acrylic, shining through engraved labels. Patterns can signal problems or add a futuristic startup effect. Either tablet, a mode button or a brightness dial can adjust the lights. A blackout switch cuts the decorative lighting immediately if required, and a separate switch controls the lamps in the mouse buttons.
 
 Everything fits in the case, but Sideband needs a wall socket. One incoming cable feeds a switched extension lead, powering the Pi, display, lighting and a USB charger for the tablets and smaller boards.
