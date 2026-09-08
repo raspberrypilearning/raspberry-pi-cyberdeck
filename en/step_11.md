@@ -14,7 +14,7 @@ The main display came from an old pi-topCEED desktop kit. It mounts on an acryli
 
 ### Input and controls
 
-A keyboard projector, bought years ago and left unused, projects red laser keys onto the deck. An infrared sensor detects key presses and sends them to the Pi over Bluetooth. The projector has its own storage slot.
+A keyboard projector, bought years ago and left unused, projects red laser keys onto the deck. An infrared sensor detects key presses and sends them to the Pi over Bluetooth. The projector has its own storage slot in the top of the deck plate.
 
 A trackball needs no room to move. Two illuminated arcade buttons act as its left and right mouse buttons, with the whole set connected through a PS/2-to-USB adapter.
 
