@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 64" role="img">
+  <title>Full-size HDMI port</title>
+  <path d="M9 15h102v13l-9 21H18L9 28z" fill="#737b86" stroke="#202631" stroke-linejoin="round" stroke-width="2.5"/>
+  <path d="M17 22h86v7l-7 13H24l-7-13z" fill="#151a22"/>
+  <path d="M27 28h66v11H27z" fill="#e8ebef" stroke="#202631" stroke-linejoin="round" stroke-width="1.4"/>
+  <g stroke="#c99432" stroke-width="1">
+    <path d="M32 28v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4"/>
+    <path d="M35 35v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4m6-4v4"/>
+  </g>
+</svg>

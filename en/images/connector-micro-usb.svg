@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 64" role="img">
+  <title>Micro-USB power port</title>
+  <path d="M35 24h50v7l-5 9H40l-5-9z" fill="#737b86" stroke="#202631" stroke-linejoin="round" stroke-width="2.5"/>
+  <path d="M40 28h40v3l-3 5H43l-3-5z" fill="#151a22"/>
+  <path d="M44 32h32v5H44z" fill="#e8ebef" stroke="#202631" stroke-width="1.25"/>
+  <g stroke="#c99432" stroke-width="1.5">
+    <path d="M50 32v4"/>
+    <path d="M55 32v4"/>
+    <path d="M60 32v4"/>
+    <path d="M65 32v4"/>
+    <path d="M70 32v4"/>
+  </g>
+</svg>

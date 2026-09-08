@@ -1,13 +1,26 @@
-title: Project title in sentence case
+title: Cyberdeck
 hero_image: images/banner.png
-description: A short description of the project
+description: Build your own cyberdeck with a Raspberry Pi.
 listed: false
 pdf: false
+build: true
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Choose a Raspberry Pi
+  - title: Plugging in
+  - title: Install Raspberry Pi OS
     completion:
-      - engaged      
+      - engaged
+  - title: Choose input devices
+  - title: Choose a display
+  - title: Set up your Raspberry Pi
+  - title: Use Raspberry Pi Connect
+  - title: Connect with SSH
+  - title: Build an enclosure
+    completion:
+      - internal
+  - title: Example - Sideband
+  - title: Example - Knitdeck
   - title: Challenge
     challenge: true
     completion:

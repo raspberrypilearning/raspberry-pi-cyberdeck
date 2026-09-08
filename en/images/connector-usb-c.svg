@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 64" role="img">
+  <title>USB-C power port</title>
+  <rect x="29" y="22" width="62" height="20" rx="10" fill="#737b86" stroke="#202631" stroke-width="2.5"/>
+  <rect x="34" y="26" width="52" height="12" rx="6" fill="#151a22"/>
+  <rect x="41" y="29" width="38" height="6" rx="3" fill="#e8ebef" stroke="#202631" stroke-width="1.1"/>
+  <g stroke="#c99432" stroke-width="1">
+    <path d="M47 29v2m0 2v2"/>
+    <path d="M52 29v2m0 2v2"/>
+    <path d="M57 29v2m0 2v2"/>
+    <path d="M62 29v2m0 2v2"/>
+    <path d="M67 29v2m0 2v2"/>
+    <path d="M72 29v2m0 2v2"/>
+  </g>
+</svg>

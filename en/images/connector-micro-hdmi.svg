@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 64" role="img">
+  <title>Micro-HDMI port</title>
+  <path d="M41 23h38l3 4v10l-3 5H41l-3-5V27z" fill="#737b86" stroke="#202631" stroke-linejoin="round" stroke-width="2.5"/>
+  <path d="M44 27h32l2 2v7l-2 2H44l-2-2v-7z" fill="#151a22"/>
+  <path d="M47 29h26v8H47z" fill="#e8ebef" stroke="#202631" stroke-linejoin="round" stroke-width="1"/>
+  <g stroke="#c99432" stroke-width=".65">
+    <path d="M48.5 29v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3"/>
+    <path d="M49.8 34v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3m2.6-3v3"/>
+  </g>
+</svg>
