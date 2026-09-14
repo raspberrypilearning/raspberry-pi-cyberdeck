@@ -10,3 +10,7 @@ env/
 ### MacOS ###
 .DS_STORE
 .DS_Store
+
+### macOS artefacts
+.DS_Store
+._*
