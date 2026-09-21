@@ -1,14 +1,16 @@
 ## Install Raspberry Pi OS
 
-**Raspberry Pi OS** is the software that turns the board into a computer. It goes onto the microSD card.
-
-![A microSD card, an SD card adapter and a USB card reader.](images/sd-card-and-reader.jpg){:width="450px"}
+**Raspberry Pi OS** is the software that turns the board into a computer. It is saved onto a microSD card.
 
 > [!TASK]
 >
-> Find your microSD card. Any card of 16GB or more works.
+> Find the microSD card that came with your Raspberry Pi. Or, any card of 16GB or more will work.
+
+> [!TASK]
 >
 > Plug it into your computer. Some laptops have a slot. Others need a USB card reader.
+
+![A microSD card, an SD card adapter and a USB card reader.](images/sd-card-and-reader.jpg){:width="450px"}
 
 > [!TASK]
 >
@@ -82,8 +84,6 @@
 > Let Imager write and verify the card, then take it out when it finishes.
 
 ![Raspberry Pi Imager warning that all data on the selected storage device will be erased.](images/imager-erase-warning.png){:width="450px"}
-
-**Test:** Imager says the write was successful.
 
 > [!DEBUG]
 >

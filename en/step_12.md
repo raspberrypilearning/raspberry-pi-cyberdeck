@@ -1,4 +1,4 @@
-## Toolbox terminal example
+## Toolbox terminal
 
 It is not polished. It manages about forty-five minutes on a battery, and the lid does not quite close over the cables. But it plays music and runs a terminal, and it is unmistakably its maker's, which is the whole point.
 

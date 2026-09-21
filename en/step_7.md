@@ -1,8 +1,6 @@
-## Switch on your Raspberry Pi
+## Plug in the devices
 
-Time to switch your Raspberry Pi on for the first time.
-
-When starting up your Raspberry Pi, you can use any **monitor** with an HDMI input, even a **television** or **projector**.
+When setting up your Raspberry Pi, you can use any **monitor** with an HDMI input, even a **television** or **projector**.
 
 This will be to big for the cyberdeck case, but it makes setting up easier.
 
@@ -10,35 +8,25 @@ This will be to big for the cyberdeck case, but it makes setting up easier.
 
 > [!TASK]
 >
-> Find the card slot underneath most Raspberry Pi boards and on the back of the keyboard computers and insert the card gently.
-
-![A hand sliding a microSD card into the friction-fit slot underneath a Raspberry Pi.](images/insert-sd-card.gif){:width="300px"}
+> Plug in all devices EXCEPT the power: the display, keyboard and pointing device.
 
 > [!INFO]
 >
-> The card slots are different on each Raspberry Pi model.
+> HDMI sockets come in three sizes.
 >
-> **Friction-fit slots** on Raspberry Pi 3, 4, 5 and every Zero model hold the microSD card without a click. Slide it in until it stops; pull it gently to remove it.
+> | Full-size HDMI | Mini HDMI | Micro HDMI |
+> |:---:|:---:|:---:|
+> | ![Illustration of a full-size HDMI socket.](images/connector-hdmi.svg){:width="100px"} | ![Illustration of a Mini HDMI socket.](images/connector-mini-hdmi.svg){:width="100px"} | ![Illustration of a Micro HDMI socket.](images/connector-micro-hdmi.svg){:width="100px"} |
 >
-> **Click-in slots** on Raspberry Pi 1 Model A+/B+, Raspberry Pi 2, and the Raspberry Pi 400 and 500 keyboard computers use a small spring. Push the card until it clicks; push it once more to release it.
->
-> The original Raspberry Pi 1 Model A and B use **a full-size, friction-fit** SD card. 
+> Raspberry Pi 4, 5, 400, 500 and 500+ use **micro** HDMI. Raspberry Pi Zero uses
+> **mini** HDMI. Most monitors, televisions and projectors use full-size HDMI, so choose
+> a cable or adaptor that matches both ends.
 
-> [!TASK]
+> [!TIP]
 >
-> Plug in the display, keyboard and pointing device.
->
-> Connect the power last. Most models start immediately, but if yours has a power button, press it.
+> Raspberry Pi Zero boards have two Micro-USB sockets. Connect power to the one labelled
+> **PWR IN**; the other is for USB devices.
 
-**Test:** Check that at least one status light comes on. 
-
-![Red and green status lights glowing on a powered Raspberry Pi.](images/rpi-lights.jpg){:width="300px"}
-
-> [!DEBUG]
+> [!INFO]
 >
-> No light? Check the power supply is on at the wall, and it is the right one for your model.
->
-> The Raspberry Pi is restarting by itself, or there is a lightning bolt in the corner? Check your power supply, it might be too weak.
->
-> The first time you switch on is slower than normal. 
-
+> A Raspberry Pi Zero needs a **Micro-USB OTG adaptor** or hub for an ordinary USB keyboard, mouse or wireless receiver. Connect it to the USB data socket, not the one labelled **PWR IN**.

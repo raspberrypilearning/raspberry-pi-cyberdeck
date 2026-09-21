@@ -1,4 +1,4 @@
-## Sideband example
+## Sideband
 
 Sideband packs a Raspberry Pi, a screen and some unusual controls into a tough, sealable case. Inspired by the cyberspace decks in William Gibson's *Neuromancer*, it looks part field computer, part spacecraft console.
 

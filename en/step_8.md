@@ -1,6 +1,6 @@
 ## On the desktop
 
-If a display is connected, the Raspberry Pi logo should appear on the desktop.
+If you have connected a screen, the Raspberry Pi logo should appear.
 
 ![TODO add screen shot hereThe Raspberry Pi OS desktop.](images/first-desktop.png){:width="450px"}
 
