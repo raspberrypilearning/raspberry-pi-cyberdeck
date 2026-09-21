@@ -1,125 +1,41 @@
-## Knitdeck
+## Sideband
 
-Knitdeck is a small cyberdeck built to read knitting patterns. It shows a pattern on an e-ink screen, and you can turn the pages with buttons.
+Sideband packs a Raspberry Pi, a screen and some unusual controls into a tough, sealable case. Inspired by the cyberspace decks in William Gibson's *Neuromancer*, it looks part field computer, part spacecraft console.
 
-![The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final3.jpg){:width="550px"}
+![Sideband in its open hard case, with a main display, silver deck, projected keyboard and two tablets alongside.](images/cyberdeck-full.jpg){:width="450px"}
 
-### Inspiration
+The main part is built with a Raspberry Pi 5 with 8GB of memory and cooling runs Raspberry Pi OS, local webpages and network tools. The tablets and a Raspberry Pi Pico W each have their own jobs.
 
-Knitdeck grew out of a love of making and crafts. The aim was to make a cyberdeck that felt like it belonged in the craft world rather than the tech one.
+### The case and display
 
-Collecting inspiration is a good start. This is a [Figma](https://www.figma.com) mood board, with references for the look and feel of it.
+A ledge inside the case supports a 5mm cast-acrylic deck, painted silver on the back. Laser-cut openings hold the controls, sockets and storage slots.
 
-![A Figma mood board of knitting and craft references, used to set the look and feel.](images/knitdeck-inspo.png){:width="550px"}
+The main display came from an old pi-topCEED desktop kit. It mounts on an acrylic panel in the lid and keeps its own power supply and button, so the screen can be switched off while the Pi keeps running.
 
-### Testing the software
+### Input and controls
 
-The software was added using [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/9). to do - check this link
+A keyboard projector, bought years ago and left unused, projects red laser keys onto the deck. An infrared sensor detects key presses and sends them to the Pi over Bluetooth. The projector has its own storage slot.
 
-![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="550px"}
+A trackball needs no room to move. Two illuminated arcade buttons act as its left and right mouse buttons, with the whole set connected through a PS/2-to-USB adapter.
 
-The software test shows the knitting pattern on the screen and moves through pages of the pattern with the buttons.
+![Close-up of Sideband's red projected keyboard, green illuminated trackball and two arcade mouse buttons on the silver deck.](images/sideband-input.jpg){:width="450px"}
 
-![Showing a knitting pattern on the screen during testing.](images/knitdeck-test.jpg){:width="450px"}
+A key-lock switch selects the desktop or a local security-training game, which is still in development. The game uses an isolated practice network: security testing is only for systems you own or have permission to test. If a task needs internet access, only the main computer is connected; tablets and test devices stay isolated.
 
-Buttons can be tested by connecting a breadboard with buttons to the Raspberry Pi.
+A long press on the shutdown button lets Raspberry Pi OS shut down safely without cutting power directly. A quick press does nothing, helping prevent accidents.
 
-![A breadboard of buttons connected to the Raspberry Pi for testing.](images/knitdeck-intial-test.jpg){:width="550px"}
+### Side displays
 
-Once the parts are tested, it is helpful to draw the final circuit design out. This can be done on paper or by using a tool like [Fritzing](https://fritzing.org).
+Two reused 7-inch Android tablets show webpages served by the Pi over its private Wi-Fi. They work without the venue's network or internet connection.
 
-![The circuit design drawn out in Fritzing.](images/knitdeck-circuit.png){:width="550px"}
+In desktop mode, **System** shows processor load, temperature, memory, storage and power status; **Network** shows connections and traffic. In game mode, **Scope** sets out the permitted targets and **Notes** provides a field log.
 
-### The enclosure
+The tablets also control the lighting, but cannot control the Pi desktop. They charge in a slot in the deck when packed away.
 
-Knitdeck is mounted inside a second-hand sewing box. This kind of box can be found in charity shops and thrift stores. It gives the project a crafty feel.
+### Lighting and power
 
-![The second-hand sewing box used as the enclosure.](images/knitdeck-case.png){:width="550px"}
+A Pico W controls two LED grids beneath the acrylic, shining through engraved labels. Patterns can signal problems or add a futuristic startup effect. Either tablet, a mode button or a brightness dial can adjust the lights. A blackout switch cuts the decorative lighting, and a separate switch controls the arcade-button lamps.
 
-### Making the control pad
+A reused Circuit Playground board adds a glow behind the display, reflected by the mirrored surface in the lid.
 
-Buttons are mounted onto cardboard. To do this, start by drawing where the parts go.
-
-![Drawing where the buttons go on the cardboard.](images/knitdeck-draw-buttons.jpg){:width="550px"}
-
-Then cut out the holes.
-
-![Cutting out the holes for the buttons.](images/knitdeck-cutout.png){:width="550px"}
-
-Wadding and fabric are added to the card to give it a soft feel.
-
-![Adding wadding and fabric to soften the control pad.](images/knitdeck-wadding.gif){:width="550px"}
-
-Cardboard is a great material to use because it is easy to get hold of and can be glued with PVA glue or held together with tape.
-
-![Gluing the control pad together with PVA glue.](images/knitdeck-glue.gif){:width="550px"}
-
-Make sure there is enough space to add the Raspberry Pi and wires under the buttons.
-
-![Adding structure with space beneath the buttons for the Raspberry Pi and wires.](images/knitdeck-adding-structure.gif){:width="550px"}
-
-### Wiring buttons
-
-Soldering wires onto buttons can be fiddly, and a cyberdeck with a regular keyboard that does not need to be soldered is far simpler.
-
-The order of soldering parts is important. First wires are soldered to the buttons.
-
-![Soldering wires to a button.](images/knitdeck-solder-button.png){:width="550px"}
-
-Then the wired buttons are threaded through and glued into the cardboard.
-
-![Threading the wired buttons through the cardboard.](images/knitdeck-add-button.gif){:width="550px"}
-
-![Gluing the buttons into the cardboard.](images/knitdeck-gluebuttons.png){:width="550px"}
-
-![The buttons working once wired up.](images/knitdeck-keys.gif){:width="550px"}
-
-### Placing the screen
-
-The screen is positioned in a removable tray that fits inside the box lid.
-
-![The screen in a removable tray that fits inside the box lid.](images/knitdeck-incase.jpg){:width="550px"}
-
-It is attached to layers of cardboard, so there is space for the board and wires behind it.
-
-![Attaching the screen to cardboard with space behind for the board and wires.](images/knitdeck-card1.gif){:width="550px"}
-
-![Cutting the cardboard for the screen tray.](images/knitdeck-cutout-card.gif){:width="550px"}
-
-![Fitting the screen into its cardboard tray.](images/knitdeck-screen.gif){:width="550px"}
-
-### Soldering to a board
-
-The other end of the wires from the buttons and screen are soldered to a perf-board, which is a circuit board with lots of holes in it.
-
-Headers are soldered to the board and connected to the wires.
-
-![Soldering the wires to the perf-board.](images/knitdeck-solderingset-up.jpg){:width="550px"}
-
-![Soldering the headers to the board.](images/knitdeck-board.png){:width="550px"}
-
-There are 6 buttons, and multiple wires for the e-ink screen, so the wiring can look like a bit of a tangle.
-
-![The tangle of wires from the buttons and screen.](images/knitdeck-tangle.jpg){:width="450px"}
-
-This is then plugged into the Raspberry Pi GPIO pins.
-
-![Connected Raspberry pi](images/knitdeck-gpio.png){:width="450px"}
-
-### Making it yours
-
-One of the best parts is decorating and making cyberdecks personal.
-
-![Decorating the finished Knitdeck.](images/knitdeck-deco.gif){:width="550px"}
-
-The Knitdeck is decorated with beads that are sewn into the fabric covering.
-
-![A close-up of the beads sewn into the fabric covering.](images/knitdeck-detail1.jpg){:width="450px"}
-
-Wires are covered using a macramé knotting technique.
-
-![Covering the wires with a macramé knotting technique.](images/knitdeck-macrame.gif){:width="550px"}
-
-Stitching is also used to add colour and texture.
-
-![Stitching added for colour and texture.](images/knitdeck-stitching.jpg){:width="550px"}
+Everything fits in the case, but Sideband needs a wall socket. One incoming cable feeds a switched extension lead, powering the Pi, display, lighting and a USB charger for the tablets and smaller boards.

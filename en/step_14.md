@@ -1,52 +1,21 @@
-## Challenge
+## Toolbox terminal
 
-Your cyberdeck works. Now turn it from a collection of parts into a machine with a
-mission.
+Toolbox terminal is made from an old component box, the sort with a hinged lid and moulded compartments, plus a spare Raspberry Pi. 
 
-> [!CHALLENGE]
->
-> Choose one job for your cyberdeck. It could become a field notebook, an offline
-> reference library, a portable writing station, a music player or a control centre for
-> another project.
->
-> Set up the files, apps and shortcuts that job needs, then adjust the desktop or case so
-> its purpose is clear. Keep the mission focused: a cyberdeck that does one job brilliantly
-> is more interesting than an ordinary computer with extra corners.
+It is a simple version with a tiny Bluetooth keyboard, because nothing I owned would fit, and speakers, because it has to be loud.
 
-### Put it to work
+It manages about forty-five minutes on a battery, and the lid doesn’t quite close over the cables.
 
-> [!TASK]
->
-> Pack the cyberdeck, set it up again and use it to complete its mission from start to
-> finish.
->
-> Notice anything that is confusing, slow or awkward. Improve one of those things, then
-> repeat the test.
+It plays music, it runs a terminal.
 
-### Try it without the screen
 
-> [!TASK]
->
-> Leave the Raspberry Pi connected to power and the network, but switch off its own
-> display. Use Raspberry Pi Connect or SSH from another computer to check its hostname,
-> then shut it down safely. From a terminal, use:
->
-> ```bash
-> sudo shutdown -h now
-> ```
->
-> If a step is difficult to remember, write a small quick-start card and keep it inside
-> the case.
+to do - make gif 
 
-### Share it
+step 14
+make this into a write up of the termianl tool box and add image. dont add all the images 
 
-> [!TASK]
->
-> Take a clear photo of your finished cyberdeck. Share what its mission is, one design
-> choice you are proud of and one problem you solved along the way.
->
-> If you share it online, ask a parent or guardian first. Keep passwords, network details,
-> your full name and your location out of the picture.
->
-> If you make a cyberdeck and come to a **Coolest Projects** event, bring it along and
-> show us! We would love to see what you built.
+
+move the order of the examples as:
+termainal toolbokx firesrt
+knitdeck seconts
+sideband third

@@ -1,117 +1,87 @@
-## Connect with SSH
+## Use Raspberry Pi Connect
 
-**SSH** is short for **S**ecure **Sh**ell. You can use it to work on your Raspberry Pi from a different computer.
+to do - test this.
 
-to do - check this, is this a safety warnign? if so make it say that
-> [!INFO]
->
-> For this project, keep SSH inside your private network. Both computers should be
-> connected to the same router or local network.
+**Raspberry Pi Connect** makes a version of your Raspberry Pi's desktop in a browser on another computer. This is handy for a cyberdeck, so that you can access the whole desktop without a monitor.
 
 > [!TASK]
 >
-> On the desktop, hover over the network icon in the top-right corner to see the local IP address. 
+> On your Raspberry Pi, open a **terminal** with the black icon in the top bar.
 >
-> Write both down. 
+> ![to do add image of terminal icon](images/aa.png){:width="450px"}
 
-![The Raspberry Pi OS network tooltip showing a Wi-Fi connection and its local IP address.](images/ssh-find-ip-address.png){:width="450px"}
-
-> [!TIP]
->
-> Your network name and numbers will differ from this example.
 
 > [!TASK]
->
-> Open a terminal on your other computer.
->
-> - **Windows** — open Terminal or PowerShell from the Start menu. 
-> - **Mac** — open Terminal from Applications, then Utilities. 
-> - **Linux** — open your usual terminal program.
-
-to do - add a screen shot 
-
-> [!TASK]
->
-> In the terminal type `ssh` and your username and hostname. For example, below the username is `alex` and the hostname is `cyberdeck`.
+> 
+> Copy this line of code, which update then XXX [waht does it do]
 >
 > ```bash
-> ssh alex@cyberdeck.local
+> sudo apt update && sudo apt install rpi-connect
 > ```
 
 > [!TASK]
 >
-> When prompted enter your password. 
+> Copy this to turn Raspberry Pi Connect on. 
 >
-> Nothing appears while you type a password. Type the full password, then press
-> **Enter**.
-
-**Test:** Check that the terminal prompt [to do - check this word] changes to show the Raspberry Pi's username and hostname, such as `alex@cyberdeck:~ $`.
-
-![to do - add image of this.](images/to.png){:width="450px"}
-
-> [!TIP]
->
-> You chose the password, username and hostname in the Imager. 
->
-> The first time you connect, SSH asks if you trust this computer. Check that you
-> are connecting to your own Raspberry Pi, then type `yes` and press **Enter**. 
-
-to do - check if the next steps are needed. could let them know what to do - such as some simple tasks.
-
+> ```bash
+> rpi-connect on
+> ```
 
 > [!TASK]
 >
-> Ask the remote computer for its hostname.
+> Then copy a line to sign in.
 >
 > ```bash
-> hostname
+> rpi-connect signin
 > ```
 
-**Test:** The reply matches the Raspberry Pi hostname you wrote down earlier.
+check - do we need to explaign the sign in process (i.e. propmtbed but cant see them - check this)
+
+> [!TASK]
+>
+> Type the web address that is [check what this is]. You can use the browser on the Raspberry Pi or type the address into another computer.
+
+> [!TASK]
+> 
+> You should see a XXX [check what happens]
+>
+> Sign in with your **Raspberry Pi ID**, or create one for free if you do not have an account yet.
+
+![Raspberry Pi Connect asking you to sign in with your Raspberry Pi ID.](images/connect-id-sign-in.png){:width="450px"}
+
+> [!TASK]
+>
+> Name your Raspberry Pi, then click **Create device and sign in**.
+
+![Raspberry Pi Connect asking you to name your new device.](images/connect-name-device.png){:width="450px"}
+
+**Test:** Check that the Connect icon in the top bar turns blue.
+
+> [!TASK]
+>
+> Go to another computer. Open [connect.raspberrypi.com](https://connect.raspberrypi.com) and sign in with the same Raspberry Pi ID.
+
+![Raspberry Pi Connect showing an online Raspberry Pi and its Connect via button.](images/connect-device-dashboard.png){:width="450px"}
+
+> [!TASK]
+>
+> Find your Raspberry Pi. The example calls its device **pitowers**, but yours will show the name you chose. Select **Connect via**, then **Screen sharing**.
+
+![to do - add image of this Raspberry Pi Connect showing an online Raspberry Pi and its Connect via button.](images/to.png){:width="450px"}
+
+**Test:** The Raspberry Pi desktop appears in the browser. Moving the mouse there moves the pointer on the Raspberry Pi itself.
+
+![The Raspberry Pi desktop shown inside a browser window on a laptop.](images/connect-in-browser.png){:width="450px"}
 
 > [!DEBUG]
 >
-> **Could not resolve hostname?** Connect with the IP address instead. Replace the
-> example username and numbers with your own:
+> Shows as offline? Check the Raspberry Pi is on and still on wi-fi. Both computers need to be online.
 >
-> ```bash
-> ssh alex@192.168.1.42
-> ```
->
-> **Connection timed out?** Check that the Raspberry Pi is on and both computers are on
-> the same local network. Check the IP address again too.
->
-> **Connection refused?** SSH may be off, or the address may lead to a different device.
-> Return to the first task and check both.
->
-> **Permission denied?** Check the username and password you entered in Imager, and make
-> sure **Caps Lock** is off.
-
-> [!TASK]
->
-> When you have finished, close the SSH connection:
->
-> ```bash
-> exit
-> ```
+> Screen sharing unavailable? Run `rpi-connect doctor` in a terminal on the Raspberry Pi. It checks the service, desktop and network, and puts a cross beside anything that needs attention.
 
 > [!TIP]
 >
-> SSH suits commands and files. Connect suits anything with windows and buttons.
+> Connect works from anywhere, not only at home.
 
-to do check this - can we jsut use the screen shots that we make ourselves? --->
-*Official Control Centre and network screenshots: © Raspberry Pi Ltd, from the [Raspberry Pi remote-access documentation](https://www.raspberrypi.com/documentation/computers/remote-access.html), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Displayed at a smaller size.*
-
-
-
-
-- add this somewher
-> [!TIP]
->
-> If did not enable SSH in the Raspberry Pi Imager, you will need to switch it on.
->
-> To check open the Raspberry Pi menu, then **Preferences** and **Control Centre**. Select **Interfaces**, switch **SSH** on and select **Close**. If you changed the switch, restart the Raspberry Pi before you continue.
-
-to do - add iamge of the raspbey pi menu - one step before this. 
-
-![Raspberry Pi OS Control Centre open on the Interfaces page, with SSH switched on.](images/ssh-control-centre.png){:width="450px"}
+to do - check what this is below
+*Official sign-in, device-name and dashboard screenshots: © Raspberry Pi Ltd, from the [Raspberry Pi Connect documentation](https://www.raspberrypi.com/documentation/services/connect.html), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Displayed at a smaller size.*
