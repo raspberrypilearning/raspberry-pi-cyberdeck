@@ -2,6 +2,9 @@
 
 **Input devices** such as a keyboard or mouse give you a way to interact with your cyberdeck.
 
+![input devices](images/pi-parts-gathered.jpg){:width="550px"}
+
+
 ### Keyboards
 
 A **full-size keyboard** is quite wide, but you can get foldable versions to save space.
