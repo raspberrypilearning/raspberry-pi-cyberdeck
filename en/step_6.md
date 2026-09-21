@@ -67,9 +67,23 @@
 
 > [!TASK]
 >
-> In Imager, open the **Raspberry Pi Connect** settings and turn on **Enable Raspberry Pi Connect**. Then click **Open Raspberry Pi Connect**.
+> In Imager, turn on **Enable Raspberry Pi Connect**. 
+
+![Enable Raspberry Pi Connect switched on in Raspberry Pi Imager.](images/rp-connect-on.png){:width="550px"}
+
+> [!TASK]
+>
+> Then click the **Open Raspberry Pi Connect** link.
+
+![The Open Raspberry Pi Connect link in Raspberry Pi Imager.](images/rp-connect-link.png){:width="550px"}
+
+> [!TASK]
 >
 > Your browser will open. Sign in with your **Raspberry Pi ID**, or create an account if you do not have one, then follow the instructions to return to Imager.
+
+![Signing in with a Raspberry Pi ID in the browser.](images/rp-connect-signin.png){:width="550px"}
+
+### Review and write
 
 > [!TASK]
 >
@@ -79,11 +93,15 @@
 
 > [!TASK]
 >
-> Check the storage device one last time. If it is the microSD card, click **I understand, erase and write**.
->
-> Let Imager write and verify the card, then take it out when it finishes.
+> You will receive a warning message. Check the storage device one last time. If it is the correct microSD card, click **I understand, erase and write**.
 
 ![Raspberry Pi Imager warning that all data on the selected storage device will be erased.](images/imager-erase-warning.png){:width="450px"}
+
+> [!TASK]
+>
+> A final message will pop up when the Imager has finsihed. Click **Finish**, and you can now remove the microSD card.
+
+![Raspberry Pi Imager showing that writing has finished successfully.](images/imager-final.png){:width="450px"}
 
 > [!DEBUG]
 >

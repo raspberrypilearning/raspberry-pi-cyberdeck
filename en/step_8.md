@@ -1,25 +1,32 @@
-## On the desktop
+## Plug in the devices
 
-If you have connected a screen, the Raspberry Pi logo should appear.
+When setting up your Raspberry Pi, you can use any **monitor** with an HDMI input, even a **television** or **projector**.
 
-![TODO add screen shot hereThe Raspberry Pi OS desktop.](images/first-desktop.png){:width="450px"}
+This will be to big for the cyberdeck case, but it makes setting up easier.
 
-> [!TASK]
->
-> When prompted, use the same username and password you set in Imager.
+![A Raspberry Pi set up on a desk with power, display and keyboard connected.](images/pi-plugged-in.png){:width="300px"}
 
 > [!TASK]
 >
-> Let any updates run and restart when it asks.
+> Plug in all devices EXCEPT the power: the display, keyboard and pointing device.
 
-> [!TASK]
+> [!INFO]
 >
-> Check the network icon on the top right. It should show wi-fi, not two red crosses.
+> HDMI sockets come in three sizes.
+>
+> | Full-size HDMI | Mini HDMI | Micro HDMI |
+> |:---:|:---:|:---:|
+> | ![Illustration of a full-size HDMI socket.](images/connector-hdmi.svg){:width="100px"} | ![Illustration of a Mini HDMI socket.](images/connector-mini-hdmi.svg){:width="100px"} | ![Illustration of a Micro HDMI socket.](images/connector-micro-hdmi.svg){:width="100px"} |
+>
+> Raspberry Pi 4, 5, 400, 500 and 500+ use **micro** HDMI. Raspberry Pi Zero uses
+> **mini** HDMI. Most monitors, televisions and projectors use full-size HDMI, so choose
+> a cable or adaptor that matches both ends.
 
 > [!TIP]
 >
-> A Raspberry Pi can run with no display and no keyboard at all. You can do this with Raspberry Pi Connect and SSH later in this project.
+> Raspberry Pi Zero boards have two Micro-USB sockets. Connect power to the one labelled
+> **PWR IN**; the other is for USB devices.
 
-> [!DEBUG]
+> [!INFO]
 >
-> The light is on, but screen is black? Check the HDMI cable. On a Raspberry Pi 4 or 5, use the socket nearest the power connector.
+> A Raspberry Pi Zero needs a **Micro-USB OTG adaptor** or hub for an ordinary USB keyboard, mouse or wireless receiver. Connect it to the USB data socket, not the one labelled **PWR IN**.

@@ -13,6 +13,8 @@ steps:
   - title: Install Raspberry Pi OS
     completion:
       - engaged
+  - title: Insert the SD card
+  - title: Plug in the devices
   - title: Switch on your Raspberry Pi
   - title: On the desktop
   - title: Use Raspberry Pi Connect
@@ -21,9 +23,9 @@ steps:
     completion:
       - internal
   - title: Toolbox terminal example
-  - title: Knitdeck example
   - title: Sideband example
-  - title: Challenge
-    challenge: true
+  - title: Knitdeck example
     completion:
       - external
+
+
