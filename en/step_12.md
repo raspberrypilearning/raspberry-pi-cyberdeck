@@ -10,9 +10,11 @@ to do - check this, is this a safety warnign? if so make it say that
 
 > [!TASK]
 >
-> On the desktop, hover over the network icon in the top-right corner to see the local IP address. 
+> On the desktop of your Raspberry Pi computer, hover over the network icon in the top-right corner to see the local IP address. 
 >
 > Write both down. 
+
+- is this needed?
 
 ![The Raspberry Pi OS network tooltip showing a Wi-Fi connection and its local IP address.](images/ssh-find-ip-address.png){:width="450px"}
 
@@ -20,43 +22,52 @@ to do - check this, is this a safety warnign? if so make it say that
 >
 > Your network name and numbers will differ from this example.
 
+- as before is theis needde?
+
 > [!TASK]
 >
-> Open a terminal on your other computer.
+> Open a terminal on another computer.
 >
 > - **Windows** — open Terminal or PowerShell from the Start menu. 
 > - **Mac** — open Terminal from Applications, then Utilities. 
 > - **Linux** — open your usual terminal program.
 
-to do - add a screen shot 
-
 > [!TASK]
 >
-> In the terminal type `ssh` and your username and hostname. For example, below the username is `alex` and the hostname is `cyberdeck`.
+> In the terminal type `ssh` and your username and hostname. For example, below the username is `alex` and the hostname is `cyberdeck`. You chose the password, username and hostname in the Imager. 
+>
 >
 > ```bash
 > ssh alex@cyberdeck.local
 > ```
 
+to do - write the following wardnifns into steps - reduce them so they are simple. 
+
+> The first time you connect, SSH asks if you trust this computer. Check that you
+> are connecting to your own Raspberry Pi, then type `yes` and press **Enter**. 
+
+A warning will The authenticity of host 'code-club.local (2a00:23c7:510e:cc01:2ecf:67ff:fec3:140d)' can't be established.
+ED25519 key fingerprint is: SHA256:LVUDIaqPYRyJiGzLD4CQKYCyDeg/A2RbuUSSTR7jLQs
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?If prompted Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+
+Warning: Permanently added 'code-club.local' (ED25519) to the list of known hosts.
+code-club@code-club.local's password: 
 > [!TASK]
 >
 > When prompted enter your password. 
+> Type the full password, then press **Enter**. For security, nothing will appear when you type. 
+
+> [!TIP]
 >
-> Nothing appears while you type a password. Type the full password, then press
-> **Enter**.
+
+
+to do - check if the next steps are needed. could let them know what to do - such as some simple tasks.
 
 **Test:** Check that the terminal prompt [to do - check this word] changes to show the Raspberry Pi's username and hostname, such as `alex@cyberdeck:~ $`.
 
 ![to do - add image of this.](images/to.png){:width="450px"}
-
-> [!TIP]
->
-> You chose the password, username and hostname in the Imager. 
->
-> The first time you connect, SSH asks if you trust this computer. Check that you
-> are connecting to your own Raspberry Pi, then type `yes` and press **Enter**. 
-
-to do - check if the next steps are needed. could let them know what to do - such as some simple tasks.
 
 
 > [!TASK]
@@ -66,6 +77,8 @@ to do - check if the next steps are needed. could let them know what to do - suc
 > ```bash
 > hostname
 > ```
+
+to do - check why this is done?
 
 **Test:** The reply matches the Raspberry Pi hostname you wrote down earlier.
 

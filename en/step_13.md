@@ -1,6 +1,6 @@
 ## Build an enclosure
 
-Most cyberdecks are made in a box that already exists. Use a lunch box, camera case, [todo add one more like toy case/box but find other word so doesnt repeart] or tool box. You could also create a case out of cardboard or if you have tools availible, laser-cut or 3D print parts.
+Most cyberdecks are made by re-purposing enclosures. Use a lunch box, camera case, [todo add one more like toy case/box but find other word so doesnt repeart] or tool box. You could also create a case out of cardboard or if you have tools availible, laser-cut or 3D print parts.
 
 > [!INFO]
 >
@@ -21,7 +21,6 @@ Most cyberdecks are made in a box that already exists. Use a lunch box, camera c
 > **Leave air space**, so the Raspberry Pi does not overheat.
 >
 > **Use fixings** to hold everything still. Tape, glue, cable ties can be helpful.
-
 
 > [!TIP]
 >

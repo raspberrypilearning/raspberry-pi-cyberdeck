@@ -1,29 +1,29 @@
 ## On the desktop
 
-If you have connected a screen, the Raspberry Pi logo should appear.
+The first time you switch on, the Raspberry Pi loads is slower than normal. It will show the Raspberry Pi logo during the loading. 
 
-![TODO add screen shot hereThe Raspberry Pi OS desktop.](images/first-desktop.png){:width="450px"}
+When it has finished loading you will see the start screen.
 
-> [!DEBUG]
->
-> The light is on, but screen is black? Check the HDMI cable. On a Raspberry Pi 4 or 5, use the socket nearest the power connector.
+![The Raspberry Pi OS desktop when it has finished loading.](images/rpi-desktop.png){:width="450px"}
 
 > [!TASK]
 >
-> When prompted, use the same username and password you set in Imager.
+> If prompted, use the same username and password you set in Imager.
 
 > [!TASK]
 >
-> Let any updates run and restart when it asks.
+> Let any updates run and restart if it asks.
 
 > [!TASK]
 >
 > Check the network icon on the top right. It should show wi-fi, not two red crosses.
 
-to do - add image
-
-
+![The network icon in the top-right of the desktop showing a Wi-Fi connection.](images/rpi-desktop-network.png){:width="450px"}
 
 > [!TIP]
 >
 > A Raspberry Pi can run with no display and no keyboard at all. You can do this with Raspberry Pi Connect and SSH later in this project.
+
+> [!DEBUG]
+>
+> The light is on, but screen is black? Check the HDMI cable. On a Raspberry Pi 4 or 5, use the socket nearest the power connector.

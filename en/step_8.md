@@ -8,7 +8,7 @@ This will be to big for the cyberdeck case, but it makes setting up easier.
 
 > [!TASK]
 >
-> Plug in all devices EXCEPT the power: the display, keyboard and pointing device.
+> Plug in all devices **EXCEPT the power**, (the display, keyboard and pointing device).
 
 > [!INFO]
 >
@@ -21,11 +21,6 @@ This will be to big for the cyberdeck case, but it makes setting up easier.
 > Raspberry Pi 4, 5, 400, 500 and 500+ use **micro** HDMI. Raspberry Pi Zero uses
 > **mini** HDMI. Most monitors, televisions and projectors use full-size HDMI, so choose
 > a cable or adaptor that matches both ends.
-
-> [!TIP]
->
-> Raspberry Pi Zero boards have two Micro-USB sockets. Connect power to the one labelled
-> **PWR IN**; the other is for USB devices.
 
 > [!INFO]
 >

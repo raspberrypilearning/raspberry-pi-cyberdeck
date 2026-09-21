@@ -1,49 +1,43 @@
 ## Use Raspberry Pi Connect
 
-to do - test this.
-
-**Raspberry Pi Connect** makes a version of your Raspberry Pi's desktop in a browser on another computer. This is handy for a cyberdeck, so that you can access the whole desktop without a monitor.
+**Raspberry Pi Connect** makes a remote version of your Raspberry Pi's desktop in another computer. This is handy for a cyberdeck, so that you can access the whole desktop without a monitor.
 
 > [!TASK]
 >
-> On your Raspberry Pi, open a **terminal** with the black icon in the top bar.
+> On your Raspberry Pi, open a **terminal** by clicking the black icon in the top bar.
 >
-> ![to do add image of terminal icon](images/aa.png){:width="450px"}
+> ![The terminal icon in the Raspberry Pi OS top bar.](images/terminal.png){:width="450px"}
 
 
 > [!TASK]
-> 
-> Copy this line of code, which update then XXX [waht does it do]
 >
-> ```bash
-> sudo apt update && sudo apt install rpi-connect
-> ```
-
-> [!TASK]
->
-> Copy this to turn Raspberry Pi Connect on. 
+> Copy or type this code into the terminal, after the `~$`. This turns Raspberry Pi Connect on. 
 >
 > ```bash
 > rpi-connect on
 > ```
 
+> ![Running rpi-connect on in the terminal to switch Connect on.](images/rp-connect-onrpi.png){:width="450px"}
+
 > [!TASK]
 >
-> Then copy a line to sign in.
+> Then type this line to sign in.
 >
 > ```bash
 > rpi-connect signin
 > ```
 
-check - do we need to explaign the sign in process (i.e. propmtbed but cant see them - check this)
-
 > [!TASK]
 >
-> Type the web address that is [check what this is]. You can use the browser on the Raspberry Pi or type the address into another computer.
+> Visit the web address from the response. This will be different for your set-up.
+>
+> Click on the link.
+
+![The sign-in web address shown in the terminal after running rpi-connect signin.](images/rp-connect-onpilink-.png){:width="450px"}
 
 > [!TASK]
 > 
-> You should see a XXX [check what happens]
+> The link will take you to a sign-in page.
 >
 > Sign in with your **Raspberry Pi ID**, or create one for free if you do not have an account yet.
 
@@ -57,6 +51,8 @@ check - do we need to explaign the sign in process (i.e. propmtbed but cant see 
 
 **Test:** Check that the Connect icon in the top bar turns blue.
 
+![The Connect icon in the top bar turned blue.](images/connect-icon.png){:width="450px"}
+
 > [!TASK]
 >
 > Go to another computer. Open [connect.raspberrypi.com](https://connect.raspberrypi.com) and sign in with the same Raspberry Pi ID.
@@ -67,11 +63,11 @@ check - do we need to explaign the sign in process (i.e. propmtbed but cant see 
 >
 > Find your Raspberry Pi. The example calls its device **pitowers**, but yours will show the name you chose. Select **Connect via**, then **Screen sharing**.
 
-![to do - add image of this Raspberry Pi Connect showing an online Raspberry Pi and its Connect via button.](images/to.png){:width="450px"}
+![Selecting Connect via, then Screen sharing, for the Raspberry Pi.](images/rp-connect-connectrpi.png){:width="450px"}
 
-**Test:** The Raspberry Pi desktop appears in the browser. Moving the mouse there moves the pointer on the Raspberry Pi itself.
+**Test:** Check that the Raspberry Pi desktop appears in the browser. Moving the mouse there moves the pointer on the Raspberry Pi itself.
 
-![The Raspberry Pi desktop shown inside a browser window on a laptop.](images/connect-in-browser.png){:width="450px"}
+![The Raspberry Pi desktop shown inside a browser window on a laptop.](images/connect-in-browser2.png){:width="450px"}
 
 > [!DEBUG]
 >
@@ -81,7 +77,4 @@ check - do we need to explaign the sign in process (i.e. propmtbed but cant see 
 
 > [!TIP]
 >
-> Connect works from anywhere, not only at home.
-
-to do - check what this is below
-*Official sign-in, device-name and dashboard screenshots: © Raspberry Pi Ltd, from the [Raspberry Pi Connect documentation](https://www.raspberrypi.com/documentation/services/connect.html), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Displayed at a smaller size.*
+> From now on you can connect to your raspberry pi through the [connect.raspberrypi.com](https://connect.raspberrypi.com) link. As long as your Raspberry Pi is switched on, this connection works from anywhere, not only at home.
