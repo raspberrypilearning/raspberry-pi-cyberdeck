@@ -20,9 +20,11 @@ When it has finished loading you will see the start screen.
 
 ![The network icon in the top-right of the desktop showing a Wi-Fi connection.](images/rpi-desktop-network.png){:width="450px"}
 
+You are now ready to use your Raspberry Pi computer!
+
 > [!TIP]
 >
-> A Raspberry Pi can run with no display and no keyboard at all. You can do this with Raspberry Pi Connect and SSH later in this project.
+> A Raspberry Pi can run with no display and no keyboard at all. You can do this with [Raspberry Pi Connect](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/10) and [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/11) later in this project.
 
 > [!DEBUG]
 >

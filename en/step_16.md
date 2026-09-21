@@ -8,13 +8,13 @@ Knitdeck is a small cyberdeck built to read knitting patterns. It shows a patter
 
 Knitdeck grew out of a love of making and crafts. The aim was to make a cyberdeck that felt like it belonged in the craft world rather than the tech one.
 
-Collecting inspiration is a good start. This is a [Figma](https://www.figma.com) mood board, with references for the look and feel of it.
+Collecting inspiration is a good start. This is a [Figma](https://www.figma.com){:target="_blank" rel="noopener"} mood board, with references for the look and feel of it.
 
 ![A Figma mood board of knitting and craft references, used to set the look and feel.](images/knitdeck-inspo.png){:width="550px"}
 
 ### Testing the software
 
-The software was added using [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/9). to do - check this link
+The software was added using [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/11).
 
 ![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="550px"}
 
@@ -26,7 +26,7 @@ Buttons can be tested by connecting a breadboard with buttons to the Raspberry P
 
 ![A breadboard of buttons connected to the Raspberry Pi for testing.](images/knitdeck-intial-test.jpg){:width="550px"}
 
-Once the parts are tested, it is helpful to draw the final circuit design out. This can be done on paper or by using a tool like [Fritzing](https://fritzing.org).
+Once the parts are tested, it is helpful to draw the final circuit design out. This can be done on paper or by using a tool like [Fritzing](https://fritzing.org){:target="_blank" rel="noopener"}.
 
 ![The circuit design drawn out in Fritzing.](images/knitdeck-circuit.png){:width="550px"}
 

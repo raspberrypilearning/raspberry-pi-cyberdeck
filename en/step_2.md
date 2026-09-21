@@ -1,6 +1,6 @@
 ## Choose a Raspberry Pi
 
-Most cyberdecks are built around a Raspberry Pi.
+Most cyberdecks are built with a Raspberry Pi.
 
 Choosing your Raspberry Pi depends on what you want to do with your cyberdeck. 
 

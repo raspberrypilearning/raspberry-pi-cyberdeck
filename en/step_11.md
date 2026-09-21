@@ -1,6 +1,8 @@
 ## Use Raspberry Pi Connect
 
-**Raspberry Pi Connect** makes a remote version of your Raspberry Pi's desktop in another computer. This is handy for a cyberdeck, so that you can access the whole desktop without a monitor.
+**Raspberry Pi Connect** makes a remote version of your Raspberry Pi's desktop in another computer. 
+
+This is handy for a cyberdeck, so that you can access the whole desktop without a monitor.
 
 > [!TASK]
 >
@@ -55,7 +57,7 @@
 
 > [!TASK]
 >
-> Go to another computer. Open [connect.raspberrypi.com](https://connect.raspberrypi.com) and sign in with the same Raspberry Pi ID.
+> Go to another computer. Open [connect.raspberrypi.com](https://connect.raspberrypi.com){:target="_blank" rel="noopener"} and sign in with the same Raspberry Pi ID.
 
 ![Raspberry Pi Connect showing an online Raspberry Pi and its Connect via button.](images/connect-device-dashboard.png){:width="450px"}
 
@@ -77,4 +79,4 @@
 
 > [!TIP]
 >
-> From now on you can connect to your raspberry pi through the [connect.raspberrypi.com](https://connect.raspberrypi.com) link. As long as your Raspberry Pi is switched on, this connection works from anywhere, not only at home.
+> From now on you can connect to your raspberry pi through the [connect.raspberrypi.com](https://connect.raspberrypi.com){:target="_blank" rel="noopener"} link. As long as your Raspberry Pi is switched on, this connection works from anywhere, not only at home.

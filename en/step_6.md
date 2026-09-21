@@ -14,7 +14,7 @@
 
 > [!TASK]
 >
-> Install **Raspberry Pi Imager** from [raspberrypi.com/software](https://www.raspberrypi.com/software/).
+> Install **Raspberry Pi Imager** from [raspberrypi.com/software](https://www.raspberrypi.com/software/){:target="_blank" rel="noopener"}.
 
 > [!TASK]
 >
@@ -45,21 +45,21 @@
 
 > [!TASK]
 >
-> Click **Next**, then edit the settings.
+> Click **Next**, then edit the settings. Set your:
 >
-> Set a **hostname**, a **username** and a **password**. Add your **wi-fi details**. 
+> - **hostname** and **username** these name your cyberdeck, you will use them for signing in. Pick some that are easy to type and make them recognisable, such as the hostname `cyberdeck` and the username `alex`.
+> - **password** — this will be used to sign in. 
+> - **wi-fi details** so that you can connect to the internet on your Raspberry Pi.
+
+> [!TIP]
+>
+> Make sure you remember the hostname, username and password! **You will need these later, and nobody can recover them for you if you forget.**
 
 > [!TASK]
 >
 > Under **Remote access**, turn on **SSH** and choose **Use password authentication**.
 
 ![SSH switched on in Raspberry Pi Imager, using password authentication.](images/imager-enable-ssh.png){:width="400px"}
-
-> [!TIP]
->
-> The hostname is the name your cyberdeck answers to on your network. Pick one that is easy to type and makes it recognisable.
->
-> Make sure you remember the username and password! **Nobody can recover them for you if you forget.**
 
 ### Optional: set up Raspberry Pi Connect
 
@@ -99,7 +99,7 @@
 
 > [!TASK]
 >
-> A final message will pop up when the Imager has finsihed. Click **Finish**, and you can now remove the microSD card.
+> A final message will pop up when the Imager has finished. Click **Finish**, and you can now remove the microSD card.
 
 ![Raspberry Pi Imager showing that writing has finished successfully.](images/imager-final.png){:width="450px"}
 

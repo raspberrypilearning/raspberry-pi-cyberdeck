@@ -13,7 +13,6 @@ You can get creative with what your cyberdeck does and how it looks. It might fo
 - a keyboard and a display
 - materials for a case
 
-
 > [!INFO]
 >
 > The word cyberdeck comes from William Gibson’s 1984 sci-fi novel Neuromancer. Gibson never explains how it works, which is why makers have found it so fun to re-invent.
