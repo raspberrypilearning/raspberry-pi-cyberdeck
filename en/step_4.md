@@ -1,98 +1,58 @@
-## Install Raspberry Pi OS
+## Choose input devices
 
-**Raspberry Pi OS** is the software that turns the board into a computer. It goes onto the microSD card.
+**Input devices** such as a keyboard or mouse give you a way to interact with your cyberdeck.
 
-![A microSD card, an SD card adapter and a USB card reader.](images/sd-card-and-reader.jpg){:width="450px"}
+### Choose how you type
+
+**A full-size keyboard** is quite wide, but you can get foldable versions to save space.
+
+**A compact keyboard** saves space because they have smaller layouts and combine or remove keys.
+
+**A mini keyboard with a built-in trackpad** is one small unit, although the tiny keys might not be easy to use.
+
+![Full-size, compact and mini keyboards shown at relative sizes; the mini keyboard has a built-in trackpad.](images/input-keyboard-options.png){:width="450px"}
+
+### Choose how you point
+
+**A mouse** is familiar and precise, but it needs a flat surface and room to move.
+
+**A trackpad or trackball** stays in one place, which makes either one easier to build into a compact case. 
+
+**A touchscreen** can replace a separate pointing device for many jobs.
+
+**Buttons, joysticks and dials** can make a finished deck look brilliant, but you will need a keyboard while you build and test it.
+
+![A mouse, trackpad, trackball and touchscreen shown as different ways to control a pointer.](images/input-pointer-options.png){:width="450px"}
+
+### Choose how they connect
+
+**Wired USB** is dependable and needs no batteries, but a separate keyboard and mouse usually use two sockets.
+
+[!TIP]
+>
+> Some keyboards have a built-in USB hub. Plug the mouse into the keyboard to keep one Raspberry Pi socket free.
+
+**A wireless USB receiver** removes the long cables but still uses a socket. A matched
+keyboard and mouse may share one receiver.
+
+**Bluetooth** can keep the USB sockets free, but the devices need pairing and power. Raspberry Pi models without built-in Bluetooth need a USB Bluetooth adaptor, so keep a wired or receiver-based keyboard handy for the first setup.
 
 > [!TASK]
 >
-> Find your microSD card. Any card of 16GB or more works.
+> Start with input devices you already have. 
 >
-> Find a way to plug it into your computer. Some laptops have a slot. Others need a USB card reader.
-
-> [!TASK]
->
-> Install **Raspberry Pi Imager** from [raspberrypi.com/software](https://www.raspberrypi.com/software/).
->
-> Open it, and put your card in.
-
-![Raspberry Pi Imager asking you to choose your Raspberry Pi model.](images/imager-start.png){:width="450px"}
-
-> [!TASK]
->
-> Choose the **Raspberry Pi model** you have, then click **Next**.
-
-![Raspberry Pi 1 selected in Raspberry Pi Imager, with the Next button ready.](images/imager-device-selected.png){:width="450px"}
-
-> [!TASK]
->
-> Choose the version of **Raspberry Pi OS** marked **Recommended**, then click **Next**.
-> The exact version depends on your Raspberry Pi model, so it may differ from the example.
-
-![Raspberry Pi OS 32-bit selected in Raspberry Pi Imager.](images/imager-os-selected.png){:width="450px"}
-
-> [!TASK]
->
-> Choose the microSD card you are writing Raspberry Pi OS to. Keep
-> **Exclude system drives** ticked, and check the card's size before you continue.
-
-![A 14.8 GB memory card selected in Raspberry Pi Imager, with Exclude system drives ticked.](images/imager-storage-selected.png){:width="450px"}
-
-> [!INFO]
->
-> Writing erases everything on the card. There is no undo.
-
-**Test:** The **Device**, **OS** and **Storage** steps show your choices.
-
-> [!TASK]
->
-> Click **Next**, then edit the settings.
->
-> Set a **hostname**, a **username** and a **password**. Add your **wi-fi details**. Under
-> **Remote access**, turn on **SSH** and choose **Use password authentication**.
-
-![SSH switched on in Raspberry Pi Imager, using password authentication.](images/imager-enable-ssh.png){:width="400px"}
+> Lay the devices where they will go on the finished case might. Check that they will fit, and leave room for the screen, plugs and cables.
 
 > [!TIP]
 >
-> The hostname is the name your cyberdeck answers to on your network. Pick one that is
-> easy to type and makes it recognisable.
+> Before choosing the final controls, check three things:
 >
-> Make sure you remember the username and password! **Nobody can recover them for you if you forget.**
-
-### Optional: set up Raspberry Pi Connect
-
-**Raspberry Pi Connect** lets you securely open your Raspberry Pi's desktop or command
-line in a web browser, even when you are away from it.
-
-> [!TASK]
+> **Fit** — measure the width, depth and height, including plugs and cable bends.
 >
-> In Imager, open the **Raspberry Pi Connect** settings and turn on
-> **Enable Raspberry Pi Connect**. Then click **Open Raspberry Pi Connect**.
+> **Sockets and power** — count the USB connections, batteries and charging cables.
 >
-> Your browser will open. Sign in with your **Raspberry Pi ID**, or create an account if
-> you do not have one, then follow the instructions to return to Imager.
+> **Comfort** — the smallest option is not always the nicest one to use.
 
-> [!TASK]
+> [!INFO]
 >
-> Review the device, operating system, storage and customisations. If they are correct,
-> click **Write**.
-
-![Raspberry Pi Imager showing the device, operating system, storage and customisations it will write.](images/imager-write-summary.png){:width="450px"}
-
-> [!TASK]
->
-> Check the storage device one last time. If it is the microSD card, click
-> **I understand, erase and write**.
->
-> Let Imager write and verify the card, then take it out when it finishes.
-
-![Raspberry Pi Imager warning that all data on the selected storage device will be erased.](images/imager-erase-warning.png){:width="450px"}
-
-**Test:** Imager says the write was successful.
-
-> [!DEBUG]
->
-> Imager cannot see the card? Take it out, put it back, and click **Choose storage** again.
->
-> Write failed partway? Try a different card reader. Readers fail more often than cards.
+> A Raspberry Pi Zero needs a **Micro-USB OTG adaptor** or hub for an ordinary USB keyboard, mouse or wireless receiver. Connect it to the USB data socket, not the one labelled **PWR IN**.

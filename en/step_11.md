@@ -4,7 +4,7 @@ Sideband packs a Raspberry Pi, a screen and some unusual controls into a tough, 
 
 ![Sideband in its open hard case, with a main display, silver deck, projected keyboard and two tablets alongside.](images/cyberdeck-full.jpg){:width="450px"}
 
-A Raspberry Pi 5 with 8GB of memory and cooling runs Raspberry Pi OS, local webpages and network tools. The tablets and a Raspberry Pi Pico W each have their own jobs.
+The main part is built with a Raspberry Pi 5 with 8GB of memory and cooling runs Raspberry Pi OS, local webpages and network tools. The tablets and a Raspberry Pi Pico W each have their own jobs.
 
 ### The case and display
 

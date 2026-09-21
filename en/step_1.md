@@ -1,10 +1,10 @@
 ## What you will make
 
-A cyberdeck is a homemade computer that does exactly what you want and looks however you like.
+A cyberdeck is a homemade, personalised computer made with a Raspberry Pi.
 
-![Finished yberdecks, open keyboard and displays.](images/cyberdecks_all.png){:width="650px"}
+![Finished cyberdecks, open keyboard and displays.](images/cyberdecks_all.png){:width="1000px"}
 
-Your cyberdeck might show knitting patterns, play music, write with no internet, or do something nobody has built yet.
+You can get creative in what your cyberdeck does and how it looks. It might focus on playing music, showing knitting patterns, playing games. 
 
 ### You will need:
 - a Raspberry Pi
@@ -14,6 +14,6 @@ Your cyberdeck might show knitting patterns, play music, write with no internet,
 - materials for a case
 
 
-> [!TIP]
+> [!INFO]
 >
-> A Raspberry Pi with a screen and a keyboard is already a cyberdeck. Every step after that makes it more your own.
+> The origins of cyberdecks are in science fiction. The word comes from William Gibson’s 1984 novel Neuromancer. Gibson never explains how it works, which is why makers have found it so easy to reinvent.

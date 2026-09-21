@@ -1,8 +1,8 @@
 ## Knitdeck
 
-Knitdeck is a small cyberdeck built for reading knitting patterns. It shows a pattern on an e-ink screen, and you can turn the pages with mechanical buttons.
+Knitdeck is a small cyberdeck built to read knitting patterns. It shows a pattern on an e-ink screen, and you can turn the pages with buttons.
 
-![The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final4.jpg){:width="550px"}
+![The finished Knitdeck, shown closed and then open with a pattern on its e-ink screen.](images/knitdeck-final3.jpg){:width="550px"}
 
 ### Inspiration
 
@@ -14,7 +14,7 @@ Collecting inspiration is a good start. This is a [Figma](https://www.figma.com)
 
 ### Testing the software
 
-The software was added using [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/9).
+The software was added using [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/9). to do - check this link
 
 ![Connecting to the Raspberry Pi over SSH to work on it.](images/knitdeck-softwared-ssh.png){:width="550px"}
 
