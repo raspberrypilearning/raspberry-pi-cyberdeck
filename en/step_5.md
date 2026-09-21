@@ -1,6 +1,6 @@
 ## Choose a display
 
-Choose a screen size and type based on what you want to do with your cyberdeck. 
+Choose a screen based on what you want to do with your cyberdeck. 
 
 **A small HDMI screen** from about 3 inches upwards will work. Most need a USB cable for power.
 

@@ -24,7 +24,7 @@
 
 ![A mouse, trackpad, trackball and touchscreen shown as different ways to control a pointer.](images/input-pointer-options.png){:width="450px"}
 
-### Choose how they connect
+### Choose the connection
 
 **Wired USB** is dependable and needs no batteries, but a separate keyboard and mouse usually use two sockets.
 

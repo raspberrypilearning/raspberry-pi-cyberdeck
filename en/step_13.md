@@ -1,4 +1,4 @@
-## Knitdeck
+## Knitdeck example
 
 Knitdeck is a small cyberdeck built to read knitting patterns. It shows a pattern on an e-ink screen, and you can turn the pages with buttons.
 

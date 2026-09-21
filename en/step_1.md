@@ -1,10 +1,10 @@
 ## What you will make
 
-A cyberdeck is a homemade, personalised computer made with a Raspberry Pi.
+Cyberdecks are homemade, personalised computers, and most are made with a Raspberry Pi.
 
 ![Finished cyberdecks, open keyboard and displays.](images/cyberdecks_all.png){:width="1000px"}
 
-You can get creative in what your cyberdeck does and how it looks. It might focus on playing music, showing knitting patterns, playing games. 
+You can get creative with what your cyberdeck does and how it looks. It might focus on playing music, showing knitting patterns, or playing games. 
 
 ### You will need:
 - a Raspberry Pi

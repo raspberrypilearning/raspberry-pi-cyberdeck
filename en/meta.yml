@@ -20,9 +20,9 @@ steps:
   - title: Build an enclosure
     completion:
       - internal
-  - title: Sideband
-  - title: Knitdeck
-  - title: Toolbox terminal
+  - title: Toolbox terminal example
+  - title: Knitdeck example
+  - title: Sideband example
   - title: Challenge
     challenge: true
     completion:

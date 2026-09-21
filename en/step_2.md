@@ -2,7 +2,7 @@
 
 Most cyberdecks are built around a Raspberry Pi.
 
-Several models work well as desktop computers, some of the older ones are a bit slower. 
+Choosing your Raspberry Pi depends on what you want to do with your cyberdeck. Several models work well as desktop computers, some of the older ones are a bit slower. 
 
 ![A Raspberry Pi Zero, Raspberry Pi 4, Raspberry Pi 1 Model B+, original Raspberry Pi Model B Revision 1 and Raspberry Pi 400 arranged together.](images/pi-models-compared1.png){:width="450px"}
 
