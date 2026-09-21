@@ -6,8 +6,7 @@ SSH is useful for typing commands and moving files. For the full desktop, use a 
 
 > [!INFO]
 >
-> To keep it secure, keep SSH inside your private network. Both computers should be
-> connected to the same router or local network.
+> To keep it secure, keep SSH inside your private network. Both computers should be connected to the same router or local network.
 
 > [!TASK]
 >
