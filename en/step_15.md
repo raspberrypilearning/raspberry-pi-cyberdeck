@@ -14,9 +14,9 @@ The main display came from an old pi-topCEED desktop kit. It mounts on an acryli
 
 ### Input and controls
 
-A keyboard projector, bought years ago and left unused, projects red laser keys onto the deck. An infrared sensor detects key presses and sends them to the Pi over Bluetooth. The projector has its own storage slot.
+A keyboard projector, bought years ago and left unused, projects red laser keys onto the deck. An infrared sensor detects key presses and sends them to the Pi over Bluetooth. The projector has its own storage slot in the top of the deck plate.
 
-A trackball needs no room to move. Two illuminated arcade buttons act as its left and right mouse buttons, with the whole set connected through a PS/2-to-USB adapter.
+Unlike a mouse, a trackball needs no room to move. Two illuminated arcade buttons act as its left and right mouse buttons, with the whole set connected through a PS/2-to-USB adapter.
 
 ![Close-up of Sideband's red projected keyboard, green illuminated trackball and two arcade mouse buttons on the silver deck.](images/sideband-input.jpg){:width="450px"}
 
@@ -30,11 +30,11 @@ Two reused 7-inch Android tablets show webpages served by the Pi over its privat
 
 In desktop mode, **System** shows processor load, temperature, memory, storage and power status; **Network** shows connections and traffic. In game mode, **Scope** sets out the permitted targets and **Notes** provides a field log.
 
-The tablets also control the lighting, but cannot control the Pi desktop. They charge in a slot in the deck when packed away.
+The tablets also control the lighting, but cannot control the Pi desktop. They charge in a slot above the keyboard when packed away.
 
 ### Lighting and power
 
-A Pico W controls two LED grids beneath the acrylic, shining through engraved labels. Patterns can signal problems or add a futuristic startup effect. Either tablet, a mode button or a brightness dial can adjust the lights. A blackout switch cuts the decorative lighting, and a separate switch controls the arcade-button lamps.
+A Pico W controls two LED grids beneath the acrylic, shining through engraved labels. Patterns can signal problems or add a futuristic startup effect. Either tablet, a mode button or a brightness dial can adjust the lights. A blackout switch cuts the decorative lighting immediately, and a separate switch controls the lamps in the mouse buttons.
 
 A reused Circuit Playground board adds a glow behind the display, reflected by the mirrored surface in the lid.
 
