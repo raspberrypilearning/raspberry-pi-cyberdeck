@@ -1,65 +1,31 @@
-## Build an enclosure
+## On the desktop
 
-The case turns a pile of parts into a cyberdeck. This is the step with the fewest rules.
+The first time you switch on, the Raspberry Pi loads is slower than normal. It will show the Raspberry Pi logo during the loading. 
 
-![Two finished cyberdecks with very different cases.](images/enclosure-examples.png){:width="450px"}
+When it has finished loading you will see the start screen.
+
+![The Raspberry Pi OS desktop when it has finished loading.](images/rpi-desktop.png){:width="450px"}
 
 > [!TASK]
 >
-> Measure your parts: the Raspberry Pi, display, input devices and anything else going in.
+> If prompted, use the same username and password you set in Imager.
+
+> [!TASK]
 >
-> Measure the parts in your hand, not the sizes on the website. Those are often wrong by a few millimetres.
+> Let any updates run and restart if it asks.
+
+> [!TASK]
+>
+> Check the network icon on the top right. It should show wi-fi, not two red crosses.
+
+![The network icon in the top-right of the desktop showing a Wi-Fi connection.](images/rpi-desktop-network.png){:width="450px"}
+
+You are now ready to use your Raspberry Pi computer!
 
 > [!TIP]
 >
-> Measure the cables too. An HDMI plug can stick out further than the Raspberry Pi is wide.
+> A Raspberry Pi can run with no display and no keyboard at all. You can do this with [Raspberry Pi Connect](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/10) and [SSH](https://projects.raspberrypi.org/en/projects/raspberry-pi-cyberdeck/11) later in this project.
 
-Cases come in a few kinds. None is better than the others.
-
-**Something that already exists** — a lunch box, a camera case, a book, a tin.
-
-**Cardboard** — free, cuts with a knife, and three wrong versions in an afternoon.
-
-**Laser-cut acrylic or plywood** — draw the panels flat and slot them together.
-
-**A 3D print** — for a shape no other method gives you.
-
-> [!TASK]
+> [!DEBUG]
 >
-> Make a cardboard version first, whatever the real one gets made from.
->
-> Cut the holes, put the parts in, close it, pick it up.
-
-![A cardboard prototype case with parts inside it.](images/cardboard-prototype.png){:width="450px"}
-
-> [!TIP]
->
-> Four things to plan.
->
-> **Holes** for every socket you still need to reach.
->
-> **Air**, so the Raspberry Pi does not overheat.
->
-> **Fixings** to hold everything still.
->
-> **A way back in**, for when you want to change something.
-
-> [!TASK]
->
-> Build your case. Put your cyberdeck in it.
-
-**Test:** Close it, carry it to another room, open it, switch it on. Still works.
-
-![The finished budgetdeck being carried.](images/budgetdeck-carried.png){:width="450px"}
-
-> [!TASK]
->
-> Take a photo of your finished cyberdeck.
-
-> [!TIP]
->
-> Two decks built while making this project.
->
-> [The budgetdeck](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG)
->
-> [The knitdeck](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG)
+> The light is on, but screen is black? Check the HDMI cable. On a Raspberry Pi 4 or 5, use the socket nearest the power connector.

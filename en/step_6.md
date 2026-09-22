@@ -1,46 +1,110 @@
-## Choose a display
+## Install Raspberry Pi OS
 
-The display shapes the build more than anything else.
-
-**An ordinary monitor** is the one to start with. Too big for a case, but it makes setting up easy.
-
-**A nearby television or projector** can do the job too. If it has an HDMI input, connect
-the right cable and select that input. That changes the build: instead of carrying a
-display, your cyberdeck borrows one from the room. Pack the cable, though—a handy screen
-will not always be available.
-
-**A small HDMI screen** is the usual choice for a finished deck. From about 3 inches upwards. Most need a USB cable for power.
-
-**The Raspberry Pi Touch Display** connects by ribbon cable instead of HDMI, so it keeps the HDMI socket free. Its touchscreen can replace a separate mouse for many jobs.
-
-**E-paper** looks like a page of a book and uses almost no power. It redraws slowly, and most are black and white. Good for reading, no good for video.
+**Raspberry Pi OS** is the software that turns the board into a computer. It is saved onto a microSD card.
 
 > [!TASK]
 >
-> Pick your display plan. You can build a screen into the deck, carry a separate one, or
-> use a nearby TV or projector when you need it.
->
-> Start from what the deck is for. Reading suits e-paper. Watching suits a small HDMI screen.
->
-> If you plan to borrow a display, test the connection now. Check that the desktop is
-> clear from where you will sit.
+> Find the microSD card that came with your Raspberry Pi. Or, any card of 16GB or more will work.
 
-> [!INFO]
+> [!TASK]
 >
-> HDMI sockets come in three sizes.
+> Plug it into your computer. Some laptops have a slot. Others need a USB card reader.
+
+![A microSD card, an SD card adapter and a USB card reader.](images/sd-card-and-reader.jpg){:width="450px"}
+
+> [!TASK]
 >
-> | Full-size HDMI | Mini HDMI | Micro HDMI |
-> |:---:|:---:|:---:|
-> | <img src="images/connector-hdmi.svg" alt="Illustration of a full-size HDMI socket." width="100"> | <img src="images/connector-mini-hdmi.svg" alt="Illustration of a Mini HDMI socket." width="100"> | <img src="images/connector-micro-hdmi.svg" alt="Illustration of a Micro HDMI socket." width="100"> |
+> Install **Raspberry Pi Imager** from [raspberrypi.com/software](https://www.raspberrypi.com/software/){:target="_blank" rel="noopener"}.
+
+> [!TASK]
 >
-> Raspberry Pi 4, 5, 400, 500 and 500+ use **micro** HDMI. Raspberry Pi Zero uses
-> **mini** HDMI. Most monitors, televisions and projectors use full-size HDMI, so choose
-> a cable or adaptor that matches both ends.
+> Open the Imager programme and choose the **Raspberry Pi model** you have, then click **Next**.
+
+![Raspberry Pi Imager asking you to choose your Raspberry Pi model.](images/imager-start.png){:width="450px"}
+
+> [!TASK]
+>
+> Choose the version of **Raspberry Pi OS** marked **Recommended**, then click **Next**.
+
+![Raspberry Pi OS 32-bit selected in Raspberry Pi Imager.](images/imager-os-selected.png){:width="450px"}
 
 > [!TIP]
 >
-> Two more things to check.
+> The version depends on your Raspberry Pi model, so it may differ from the example.
+
+> [!TASK]
 >
-> **Power** — some screens take it from the Raspberry Pi, others need their own supply.
+> Choose the microSD card you are writing Raspberry Pi OS to. Keep
+> **Exclude system drives** ticked, and check the card's size before you continue.
+
+![A 14.8 GB memory card selected in Raspberry Pi Imager, with Exclude system drives ticked.](images/imager-storage-selected.png){:width="450px"}
+
+> [!INFO]
 >
-> **Resolution** — below 800 by 480, some menus will not fit.
+> Be sure you have the correct microSD card, as writing erases everything on the card. There is no undo.
+
+> [!TASK]
+>
+> Click **Next**, then edit the settings. Set your:
+>
+> - **hostname** and **username** these name your cyberdeck, you will use them for signing in. Pick some that are easy to type and make them recognisable, such as the hostname `cyberdeck` and the username `alex`.
+> - **password** — this will be used to sign in. 
+> - **wi-fi details** so that you can connect to the internet on your Raspberry Pi.
+
+> [!TIP]
+>
+> Make sure you remember the hostname, username and password! **You will need these later, and nobody can recover them for you if you forget.**
+
+> [!TASK]
+>
+> Under **Remote access**, turn on **SSH** and choose **Use password authentication**.
+
+![SSH switched on in Raspberry Pi Imager, using password authentication.](images/imager-enable-ssh.png){:width="400px"}
+
+### Optional: set up Raspberry Pi Connect
+
+**Raspberry Pi Connect** lets you securely open your Raspberry Pi's desktop or command line in a web browser, even when you are away from it.
+
+> [!TASK]
+>
+> In Imager, turn on **Enable Raspberry Pi Connect**. 
+
+![Enable Raspberry Pi Connect switched on in Raspberry Pi Imager.](images/rp-connect-on.png){:width="550px"}
+
+> [!TASK]
+>
+> Then click the **Open Raspberry Pi Connect** link.
+
+![The Open Raspberry Pi Connect link in Raspberry Pi Imager.](images/rp-connect-link.png){:width="550px"}
+
+> [!TASK]
+>
+> Your browser will open. Sign in with your **Raspberry Pi ID**, or create an account if you do not have one, then follow the instructions to return to Imager.
+
+![Signing in with a Raspberry Pi ID in the browser.](images/rp-connect-signin.png){:width="550px"}
+
+### Review and write
+
+> [!TASK]
+>
+> Review the device, operating system, storage and customisations. If they are correct, click **Write**.
+
+![Raspberry Pi Imager showing the device, operating system, storage and customisations it will write.](images/imager-write-summary.png){:width="450px"}
+
+> [!TASK]
+>
+> You will receive a warning message. Check the storage device one last time. If it is the correct microSD card, click **I understand, erase and write**.
+
+![Raspberry Pi Imager warning that all data on the selected storage device will be erased.](images/imager-erase-warning.png){:width="450px"}
+
+> [!TASK]
+>
+> A final message will pop up when the Imager has finished. Click **Finish**, and you can now remove the microSD card.
+
+![Raspberry Pi Imager showing that writing has finished successfully.](images/imager-final.png){:width="450px"}
+
+> [!DEBUG]
+>
+> Imager cannot see the card? Take it out, put it back, and click **Choose storage** again.
+>
+> Write failed partway? Try a different card reader. Readers fail more often than cards.

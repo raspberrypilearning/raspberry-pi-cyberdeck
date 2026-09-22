@@ -1,39 +1,82 @@
-## Sideband
+## Use Raspberry Pi Connect
 
-Sideband packs a Raspberry Pi, a screen and some unusual controls into a tough, sealable case. Inspired by the cyberspace decks in William Gibson's *Neuromancer*, it looks part field computer, part spacecraft console.
+**Raspberry Pi Connect** makes a remote version of your Raspberry Pi's desktop in another computer. 
 
-![Sideband in its open hard case, with a main display, silver deck, projected keyboard and two tablets alongside.](images/cyberdeck-full.jpg){:width="450px"}
+This is handy for a cyberdeck, so that you can access the whole desktop without a monitor.
 
-A Raspberry Pi 5 with 8GB of memory and cooling runs Raspberry Pi OS, local webpages and network tools. The tablets and a Raspberry Pi Pico W each have their own jobs.
+> [!TASK]
+>
+> On your Raspberry Pi, open a **terminal** by clicking the black icon in the top bar.
+>
+> ![The terminal icon in the Raspberry Pi OS top bar.](images/terminal.png){:width="450px"}
 
-### The case and display
 
-A ledge inside the case supports a 5mm cast-acrylic deck, painted silver on the back. Laser-cut openings hold the controls, sockets and storage slots.
+> [!TASK]
+>
+> Copy or type this code into the terminal, after the `~$`. This turns Raspberry Pi Connect on. 
+>
+> ```bash
+> rpi-connect on
+> ```
 
-The main display came from an old pi-topCEED desktop kit. It mounts on an acrylic panel in the lid and keeps its own power supply and button, so the screen can be switched off while the Pi keeps running.
+> ![Running rpi-connect on in the terminal to switch Connect on.](images/rp-connect-onrpi.png){:width="450px"}
 
-### Input and controls
+> [!TASK]
+>
+> Then type this line to sign in.
+>
+> ```bash
+> rpi-connect signin
+> ```
 
-A keyboard projector, bought years ago and left unused, projects red laser keys onto the deck. An infrared sensor detects key presses and sends them to the Pi over Bluetooth. The projector has its own storage slot in the top of the deck plate.
+> [!TASK]
+>
+> Visit the web address from the response. This will be different for your set-up.
+>
+> Click on the link.
 
-Unlike a mouse, a trackball needs no room to move. Two illuminated arcade buttons act as its left and right mouse buttons, with the whole set connected through a PS/2-to-USB adapter.
+![The sign-in web address shown in the terminal after running rpi-connect signin.](images/rp-connect-onpilink-.png){:width="450px"}
 
-![Close-up of Sideband's red projected keyboard, green illuminated trackball and two arcade mouse buttons on the silver deck.](images/sideband-input.jpg){:width="450px"}
+> [!TASK]
+> 
+> The link will take you to a sign-in page.
+>
+> Sign in with your **Raspberry Pi ID**, or create one for free if you do not have an account yet.
 
-A key-lock switch selects the desktop or a local security-training game, which is still in development. The game uses an isolated practice network: security testing is only for systems you own or have permission to test. If a task needs internet access, only the main computer is connected; tablets and test devices stay isolated.
+![Raspberry Pi Connect asking you to sign in with your Raspberry Pi ID.](images/connect-id-sign-in.png){:width="450px"}
 
-A long press on the shutdown button lets Raspberry Pi OS shut down safely without cutting power directly. A quick press does nothing, helping prevent accidents.
+> [!TASK]
+>
+> Name your Raspberry Pi, then click **Create device and sign in**.
 
-### Side displays
+![Raspberry Pi Connect asking you to name your new device.](images/connect-name-device.png){:width="450px"}
 
-Two reused 7-inch Android tablets show webpages served by the Pi over its private Wi-Fi. They work without the venue's network or internet connection.
+**Test:** Check that the Connect icon in the top bar turns blue.
 
-In desktop mode, **System** shows processor load, temperature, memory, storage and power status; **Network** shows connections and traffic. In game mode, **Scope** sets out the permitted targets and **Notes** provides a field log.
+![The Connect icon in the top bar turned blue.](images/connect-icon.png){:width="450px"}
 
-The tablets also control the lighting, but cannot control the Pi desktop. They charge in a slot above the keyboard when packed away.
+> [!TASK]
+>
+> Go to another computer. Open [connect.raspberrypi.com](https://connect.raspberrypi.com){:target="_blank" rel="noopener"} and sign in with the same Raspberry Pi ID.
 
-### Lighting and power
+![Raspberry Pi Connect showing an online Raspberry Pi and its Connect via button.](images/connect-device-dashboard.png){:width="450px"}
 
-A Pico W controls two LED grids beneath the acrylic, shining through engraved labels. Patterns can signal problems or add a futuristic startup effect. Either tablet, a mode button or a brightness dial can adjust the lights. A blackout switch cuts the decorative lighting immediately if required, and a separate switch controls the lamps in the mouse buttons.
+> [!TASK]
+>
+> Find your Raspberry Pi. The example calls its device **pitowers**, but yours will show the name you chose. Select **Connect via**, then **Screen sharing**.
 
-Everything fits in the case, but Sideband needs a wall socket. One incoming cable feeds a switched extension lead, powering the Pi, display, lighting and a USB charger for the tablets and smaller boards.
+![Selecting Connect via, then Screen sharing, for the Raspberry Pi.](images/rp-connect-connectrpi.png){:width="450px"}
+
+**Test:** Check that the Raspberry Pi desktop appears in the browser. Moving the mouse there moves the pointer on the Raspberry Pi itself.
+
+![The Raspberry Pi desktop shown inside a browser window on a laptop.](images/connect-in-browser2.png){:width="450px"}
+
+> [!DEBUG]
+>
+> Shows as offline? Check the Raspberry Pi is on and still on wi-fi. Both computers need to be online.
+>
+> Screen sharing unavailable? Run `rpi-connect doctor` in a terminal on the Raspberry Pi. It checks the service, desktop and network, and puts a cross beside anything that needs attention.
+
+> [!TIP]
+>
+> From now on you can connect to your raspberry pi through the [connect.raspberrypi.com](https://connect.raspberrypi.com){:target="_blank" rel="noopener"} link. As long as your Raspberry Pi is switched on, this connection works from anywhere, not only at home.

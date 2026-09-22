@@ -1,66 +1,40 @@
-## Use Raspberry Pi Connect
-
-**Raspberry Pi Connect** puts your Raspberry Pi's desktop in a browser on another computer. That is handy for a cyberdeck: you can leave the monitor behind and still reach the whole desktop when you need it.
-
-![The Raspberry Pi desktop shown inside a browser window on a laptop.](images/connect-in-browser.png){:width="450px"}
+## Plug in the devices
 
 > [!TASK]
 >
-> On your Raspberry Pi, open a **terminal** with the black icon in the top bar.
->
-> ```bash
-> sudo apt update && sudo apt install rpi-connect
-> ```
+> Plug in all devices **EXCEPT the power**, (the display, keyboard and pointing device).
+
+![A Raspberry Pi set up on a desk with power, display and keyboard connected.](images/pi-plugged-in.png){:width="300px"}
+
+### Connecting keyboard and pointer
+
+Using **wired USB** for your pointer and keyboard is dependable and needs no batteries, but a separate keyboard and mouse usually use two sockets.
+
+Some keyboards have a **built-in USB hub**. With this you can plug the mouse into the keyboard to keep one Raspberry Pi socket free.
+
+A **wireless USB receiver** uses one socket for both a keyboard and mouse, and saves space.
+
+**Bluetooth** can keep the USB sockets completely free, but the devices need pairing and power. Also, Raspberry Pi models without built-in Bluetooth would need a USB Bluetooth adaptor.
+
+### Connecting a display
+
+When setting up your Raspberry Pi, you can use any **monitor** with an HDMI input, even a **television** or **projector**. This will be to big for the cyberdeck case, but it makes setting up easier.
 
 > [!INFO]
 >
-> Raspberry Pi Connect is already installed in current Raspberry Pi OS Desktop and Full images. If the command says it is already the newest version, you are ready to continue.
-
-> [!TASK]
+> Most monitors, televisions and projectors use full-size HDMI, so choose a cable or adaptor that matches both ends.
 >
-> Turn it on, then start signing in.
+> - Raspberry Pi 4, 5, 400, 500 and 500+ use **micro** HDMI. 
+> - Raspberry Pi Zero uses **mini** HDMI.
+
+> [!INFO]
 >
-> ```bash
-> rpi-connect on
-> rpi-connect signin
-> ```
-
-> [!TASK]
+> HDMI sockets come in three sizes.
 >
-> Open the web address printed in the terminal. You can use the browser on the Raspberry Pi or type the address into another computer.
+> | Full-size HDMI | Mini HDMI | Micro HDMI |
+> |:---:|:---:|:---:|
+> | ![Illustration of a full-size HDMI socket.](images/connector-hdmi.png){:width="100px"} | ![Illustration of a Mini HDMI socket.](images/connector-mini-hdmi.png){:width="100px"} | ![Illustration of a Micro HDMI socket.](images/connector-micro-hdmi.png){:width="100px"} |
+
+> [!INFO]
 >
-> Sign in with your **Raspberry Pi ID**, or create one for free if you do not have an account yet.
-
-![Raspberry Pi Connect asking you to sign in with your Raspberry Pi ID.](images/connect-id-sign-in.png){:width="450px"}
-
-> [!TASK]
->
-> Give your Raspberry Pi a name you will recognise, then click **Create device and sign in**.
-
-![Raspberry Pi Connect asking you to name your new device.](images/connect-name-device.png){:width="450px"}
-
-**Test:** The Connect icon in the top bar turns blue.
-
-> [!TASK]
->
-> Go to another computer. Open [connect.raspberrypi.com](https://connect.raspberrypi.com) and sign in with the same Raspberry Pi ID.
-
-![Raspberry Pi Connect showing an online Raspberry Pi and its Connect via button.](images/connect-device-dashboard.png){:width="450px"}
-
-> [!TASK]
->
-> Find your Raspberry Pi. The example calls its device **pitowers**, but yours will show the name you chose. Select **Connect via**, then **Screen sharing**.
-
-**Test:** The Raspberry Pi desktop appears in the browser. Moving the mouse there moves the pointer on the Raspberry Pi itself.
-
-> [!DEBUG]
->
-> Shows as offline? Check the Raspberry Pi is on and still on wi-fi. Both computers need to be online.
->
-> Screen sharing unavailable? Run `rpi-connect doctor` in a terminal on the Raspberry Pi. It checks the service, desktop and network, and puts a cross beside anything that needs attention.
-
-> [!TIP]
->
-> Connect works from anywhere, not only at home.
-
-*Official sign-in, device-name and dashboard screenshots: © Raspberry Pi Ltd, from the [Raspberry Pi Connect documentation](https://www.raspberrypi.com/documentation/services/connect.html), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Displayed at a smaller size.*
+> A Raspberry Pi Zero needs a **Micro-USB OTG adaptor** or hub for an ordinary USB keyboard, mouse or wireless receiver. Connect it to the USB data socket, not the one labelled **PWR IN**.
