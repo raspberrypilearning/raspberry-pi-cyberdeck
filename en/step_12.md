@@ -65,23 +65,23 @@ SSH is useful for typing commands and moving files. For the full desktop, use a 
 
 > [!DEBUG]
 >
-> **Could not resolve hostname?** Connect with the IP address instead. To find it, hover over the network icon in the top-right of the Raspberry Pi desktop. Your network name and numbers will differ from the example. Replace the example username and numbers with your own:
+> **Could not resolve hostname?** Connect with the IP address instead. To find it, hover over the network icon in the top-right of the Raspberry Pi desktop. Your network name and numbers will differ from the example. 
+>
+>
+> ![The Raspberry Pi OS network tooltip showing a Wi-Fi connection and its local IP address.](images/ssh-find-ip-address.png){:width="450px"}
+>
+> Use your IP address instead of the hostname.
 >
 > ```bash
 > ssh alex@192.168.1.42
 > ```
 >
-> ![The Raspberry Pi OS network tooltip showing a Wi-Fi connection and its local IP address.](images/ssh-find-ip-address.png){:width="450px"}
+> **Connection timed out?** Check that the Raspberry Pi is on and both computers are on the same local network. Check the IP address again too.
 >
-> **Connection timed out?** Check that the Raspberry Pi is on and both computers are on
-> the same local network. Check the IP address again too.
+> **Connection refused?** SSH may be off, or the address may lead to a different device Return to the first task and check both.
 >
-> **Connection refused?** SSH may be off, or the address may lead to a different device.
-> Return to the first task and check both.
->
-> **Permission denied?** Check the username and password you entered in Imager, and make
-> sure **Caps Lock** is off.
->
+> **Permission denied?** Check the username and password you entered in Imager, and make sure **Caps Lock** is off.
+
 
 > [!TIP]
 >
