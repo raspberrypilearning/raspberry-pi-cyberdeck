@@ -4,7 +4,7 @@ Choose a screen based on what you want to do with your cyberdeck.
 
 ![Three screens, small, touch display, and e-paper.](images/displays.png){:width="450px"}
 
-A **small screen** from about 3 inches upwards will work. Most need a USB cable for power.V
+A **small screen** from about 3 inches upwards will work. Most need a USB cable for power.
 
 The **Raspberry Pi Touch Display** connects by ribbon cable instead of HDMI, so it keeps the HDMI socket free. Its touchscreen can replace a separate mouse.
 
