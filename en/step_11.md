@@ -7,8 +7,8 @@ This is handy for a cyberdeck, so that you can access the whole desktop without 
 > [!TASK]
 >
 > On your Raspberry Pi, open a **terminal** by clicking the black icon in the top bar.
->
-> ![The terminal icon in the Raspberry Pi OS top bar.](images/terminal.png){:width="450px"}
+
+![The terminal icon in the Raspberry Pi OS top bar.](images/terminal.png){:width="450px"}
 
 
 > [!TASK]
@@ -19,7 +19,7 @@ This is handy for a cyberdeck, so that you can access the whole desktop without 
 > rpi-connect on
 > ```
 
-> ![Running rpi-connect on in the terminal to switch Connect on.](images/rp-connect-onrpi.png){:width="450px"}
+![Running rpi-connect on in the terminal to switch Connect on.](images/rp-connect-onrpi.png){:width="450px"}
 
 > [!TASK]
 >
@@ -65,7 +65,7 @@ This is handy for a cyberdeck, so that you can access the whole desktop without 
 >
 > Find your Raspberry Pi. The example calls its device **pitowers**, but yours will show the name you chose. Select **Connect via**, then **Screen sharing**.
 
-![Selecting Connect via, then Screen sharing, for the Raspberry Pi.](images/rp-connect-connectrpi.png){:width="450px"}
+![Selecting Connect via, then Screen sharing, for the Raspberry Pi.](images/rp-connect-connectrpi.png){:width="250px"}
 
 **Test:** Check that the Raspberry Pi desktop appears in the browser. Moving the mouse there moves the pointer on the Raspberry Pi itself.
 
