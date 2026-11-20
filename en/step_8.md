@@ -2,15 +2,15 @@
 
 > [!TASK]
 >
-> Plug in all devices **EXCEPT the power**, (the display, keyboard and pointing device).
+> Plug in all devices **EXCEPT the power**, (the display, keyboard, and pointing device).
 
-![A Raspberry Pi set up on a desk with power, display and keyboard connected.](images/pi-plugged-in.png){:width="300px"}
+![A Raspberry Pi set up on a desk with power, display, and keyboard connected.](images/pi-plugged-in.png){:width="300px"}
 
 ### Connecting keyboard and pointer
 
 Using **wired USB** for your pointer and keyboard is dependable and needs no batteries, but a separate keyboard and mouse usually use two sockets.
 
-Some keyboards have a **built-in USB hub**. With this you can plug the mouse into the keyboard to keep one Raspberry Pi socket free.
+Some keyboards have a **built-in USB hub**. With this, you can plug the mouse into the keyboard to keep one Raspberry Pi socket free.
 
 A **wireless USB receiver** uses one socket for both a keyboard and mouse, and saves space.
 
@@ -22,7 +22,7 @@ When setting up your Raspberry Pi, you can use any **monitor** with an HDMI inpu
 
 > [!INFO]
 >
-> Most monitors, televisions and projectors use full-size HDMI, so choose a cable or adaptor that matches both ends.
+> Most monitors, televisions, and projectors use full-size HDMI, so choose a cable or adaptor that matches both ends.
 >
 > - Raspberry Pi 4, 5, 400, 500 and 500+ use **micro** HDMI. 
 > - Raspberry Pi Zero uses **mini** HDMI.
