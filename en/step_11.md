@@ -75,8 +75,8 @@ This is handy for a cyberdeck, so that you can access the whole desktop without 
 >
 > Shows as offline? Check the Raspberry Pi is on and still on wi-fi. Both computers need to be online.
 >
-> Screen sharing unavailable? Run `rpi-connect doctor` in a terminal on the Raspberry Pi. It checks the service, desktop and network, and puts a cross beside anything that needs attention.
+> Screen sharing unavailable? Run `rpi-connect doctor` in a terminal on the Raspberry Pi. It checks the service, desktop, and network, and puts a cross beside anything that needs attention.
 
 > [!TIP]
 >
-> From now on you can connect to your raspberry pi through the [connect.raspberrypi.com](https://connect.raspberrypi.com){:target="_blank" rel="noopener"} link. As long as your Raspberry Pi is switched on, this connection works from anywhere, not only at home.
+> From now on, you can connect to your raspberry pi through the [connect.raspberrypi.com](https://connect.raspberrypi.com){:target="_blank" rel="noopener"} link. As long as your Raspberry Pi is switched on, this connection works from anywhere, not only at home.
