@@ -30,7 +30,7 @@
 
 > [!TIP]
 >
-> The version depends on your Raspberry Pi model, so it may differ from the example.
+> The version depends on your Raspberry Pi model, so it may be different from the example.
 
 > [!TASK]
 >
@@ -47,13 +47,13 @@
 >
 > Click **Next**, then edit the settings. Set your:
 >
-> - **hostname** and **username** these name your cyberdeck, you will use them for signing in. Pick some that are easy to type and make them recognisable, such as the hostname `cyberdeck` and the username `alex`.
-> - **password** — this will be used to sign in. 
-> - **wi-fi details** so that you can connect to the internet on your Raspberry Pi.
+> - **Hostname** and **username** — these name your cyberdeck, and you will use them for signing in. Pick some that are easy to type and make them recognisable, such as the hostname `cyberdeck` and the username `alex`.
+> - **Password** — this will be used to sign in. 
+> - **Wi-fi details** so that you can connect to the internet on your Raspberry Pi.
 
 > [!TIP]
 >
-> Make sure you remember the hostname, username and password! **You will need these later, and nobody can recover them for you if you forget.**
+> Make sure you remember the hostname, username, and password! **You will need these later, and nobody can recover them for you if you forget.**
 
 > [!TASK]
 >
@@ -89,7 +89,7 @@
 >
 > Review the device, operating system, storage and customisations. If they are correct, click **Write**.
 
-![Raspberry Pi Imager showing the device, operating system, storage and customisations it will write.](images/imager-write-summary.png){:width="450px"}
+![Raspberry Pi Imager showing the device, operating system, storage, and customisations it will write.](images/imager-write-summary.png){:width="450px"}
 
 > [!TASK]
 >
