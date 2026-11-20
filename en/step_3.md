@@ -20,6 +20,6 @@ Your Raspberry Pi will need to be powered.
 
 > [!TIP]
 >
-> - If you are unsure, use the official power supply for the Raspberry Pi model.
-> - Plugging into mains power means any model will work. You will need to check which power supply it needs.
-> - A Raspberry Pi Zero is best if you want it to be battery powered or use a portable power bank.
+> - If you are unsure, use the official power supply for the Raspberry Pi model
+> - Plugging into mains power means any model will work. You will need to check which power supply it needs
+> - A Raspberry Pi Zero is best if you want it to be battery powered or use a portable power bank
