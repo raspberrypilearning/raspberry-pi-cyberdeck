@@ -12,13 +12,13 @@ SSH is useful for typing commands and moving files. For the full desktop, use a 
 >
 > Open a terminal on another computer.
 >
-> - **Windows** — open Terminal or PowerShell from the Start menu. 
-> - **Mac** — open Terminal from Applications, then Utilities. 
-> - **Linux** — open your usual terminal program.
+> - **Windows** — open Terminal or PowerShell from the Start menu
+> - **Mac** — open Terminal from Applications, then Utilities 
+> - **Linux** — open your usual terminal program
 
 > [!TASK]
 >
-> In the terminal type `ssh` and your username and hostname. For example, below the username is `alex` and the hostname is `cyberdeck`. You chose the password, username and hostname in the Imager. 
+> In the terminal, type `ssh` and your username and hostname. For example, below the username is `alex` and the hostname is `cyberdeck`. You chose the password, username, and hostname in the Imager. 
 >
 >
 > ```bash
@@ -33,7 +33,7 @@ SSH is useful for typing commands and moving files. For the full desktop, use a 
 
 > [!TASK]
 >
-> When prompted enter your password. 
+> When prompted, enter your password. 
 >
 > Type the full password, then press **Enter**. For security, nothing will appear on the screen when you type. 
 
@@ -78,7 +78,7 @@ SSH is useful for typing commands and moving files. For the full desktop, use a 
 >
 > **Connection timed out?** Check that the Raspberry Pi is on and both computers are on the same local network. Check the IP address again too.
 >
-> **Connection refused?** SSH may be off, or the address may lead to a different device Return to the first task and check both.
+> **Connection refused?** SSH may be off, or the address may lead to a different device. Return to the first task and check both.
 >
 > **Permission denied?** Check the username and password you entered in Imager, and make sure **Caps Lock** is off.
 
