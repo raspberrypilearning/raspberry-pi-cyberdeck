@@ -1,8 +1,8 @@
 ## On the desktop
 
-The first time you switch on, the Raspberry Pi loads is slower than normal. It will show the Raspberry Pi logo during the loading. 
+The first time you switch on, the Raspberry Pi loads slower than normal. It will show the Raspberry Pi logo during the loading. 
 
-When it has finished loading you will see the start screen.
+When it has finished loading, you will see the start screen.
 
 ![The Raspberry Pi OS desktop when it has finished loading.](images/rpi-desktop.png){:width="450px"}
 
@@ -28,4 +28,4 @@ You are now ready to use your Raspberry Pi computer!
 
 > [!DEBUG]
 >
-> The light is on, but screen is black? Check the HDMI cable. On a Raspberry Pi 4 or 5, use the socket nearest the power connector.
+> The light is on, but the screen is black? Check the HDMI cable. On a Raspberry Pi 4 or 5, use the socket nearest the power connector.
