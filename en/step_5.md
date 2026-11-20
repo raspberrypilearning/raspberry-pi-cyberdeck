@@ -8,7 +8,7 @@ A **small screen** from about 3 inches upwards will work. Most need a USB cable 
 
 The **Raspberry Pi Touch Display** connects by ribbon cable instead of HDMI, so it keeps the HDMI socket free. Its touchscreen can replace a separate mouse.
 
-A black and white **e-paper** looks like a page of a book and uses almost no power. It redraws slowly, and is good for reading, not good for video or games.
+A black and white **e-paper** looks like a page of a book and uses almost no power. It redraws slowly, and is good for reading. It is not good for video or games.
 
 > [!TASK]
 >
@@ -16,5 +16,5 @@ A black and white **e-paper** looks like a page of a book and uses almost no pow
 
 > [!TIP]
 >
-> - Some screens take **power** from the Raspberry Pi, others need their own supply.
-> - Some menus will not work with low **resolution** screens that are below 800px by 480px.
+> - Some screens take **power** from the Raspberry Pi, while others need their own supply
+> - Some menus will not work with low **resolution** screens that are below 800px by 480px
